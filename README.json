@@ -36,10 +36,10 @@
           "repo_info": {
             "archived": false,
             "language": "Rust",
-            "last_commit": "2026-08-18T03:44:17Z",
+            "last_commit": "2026-08-19T02:46:48Z",
             "owner": "zavora-ai",
             "repo": "adk-rust",
-            "stars": 610
+            "stars": 613
           }
         },
         {
@@ -50,7 +50,7 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-18T05:04:38Z",
+            "last_commit": "2026-08-18T19:44:20Z",
             "owner": "holoviz",
             "repo": "lumen",
             "stars": 307
@@ -70,7 +70,7 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-18T04:19:44Z",
+            "last_commit": "2026-08-18T20:37:27Z",
             "owner": "future-agi",
             "repo": "agent-learning-kit",
             "stars": 117
@@ -200,7 +200,7 @@
             "last_commit": "2023-08-31T17:49:30Z",
             "owner": "khangich",
             "repo": "machine-learning-interview",
-            "stars": 12782
+            "stars": 12784
           }
         },
         {
@@ -214,7 +214,7 @@
             "last_commit": "2026-08-17T05:07:26Z",
             "owner": "FareedKhan-dev",
             "repo": "train-llm-from-scratch",
-            "stars": 9151
+            "stars": 9204
           }
         },
         {
@@ -228,7 +228,7 @@
             "last_commit": "2026-08-17T13:10:16Z",
             "owner": "rfordatascience",
             "repo": "tidytuesday",
-            "stars": 8335
+            "stars": 8345
           }
         },
         {
@@ -256,7 +256,7 @@
             "last_commit": "2023-02-21T13:19:32Z",
             "owner": "kevinschaich",
             "repo": "pyspark-cheatsheet",
-            "stars": 696
+            "stars": 697
           }
         },
         {
@@ -304,7 +304,7 @@
             "last_commit": "2025-09-12T14:59:30Z",
             "owner": "AMAI-GmbH",
             "repo": "AI-Expert-Roadmap",
-            "stars": 31211
+            "stars": 31214
           }
         },
         {
@@ -318,7 +318,7 @@
             "last_commit": "2025-05-13T02:19:48Z",
             "owner": "ossu",
             "repo": "data-science",
-            "stars": 21892
+            "stars": 21896
           }
         },
         {
@@ -373,10 +373,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-18T05:30:49Z",
+            "last_commit": "2026-08-19T05:25:05Z",
             "owner": "jax-ml",
             "repo": "jax",
-            "stars": 36173
+            "stars": 36174
           }
         },
         {
@@ -387,10 +387,10 @@
           "repo_info": {
             "archived": false,
             "language": "C++",
-            "last_commit": "2026-08-18T03:25:57Z",
+            "last_commit": "2026-08-19T04:06:51Z",
             "owner": "dmlc",
             "repo": "xgboost",
-            "stars": 28661
+            "stars": 28668
           }
         },
         {
@@ -401,10 +401,10 @@
           "repo_info": {
             "archived": false,
             "language": "C++",
-            "last_commit": "2026-08-14T14:59:47Z",
+            "last_commit": "2026-08-19T02:59:23Z",
             "owner": "lightgbm-org",
             "repo": "LightGBM",
-            "stars": 18691
+            "stars": 18698
           }
         },
         {
@@ -418,7 +418,7 @@
             "last_commit": "2026-08-11T03:03:36Z",
             "owner": "davisking",
             "repo": "dlib",
-            "stars": 14433
+            "stars": 14432
           }
         },
         {
@@ -429,7 +429,7 @@
           "repo_info": {
             "archived": false,
             "language": "C++",
-            "last_commit": "2026-08-17T23:47:13Z",
+            "last_commit": "2026-08-19T04:09:33Z",
             "owner": "catboost",
             "repo": "catboost",
             "stars": 9069
@@ -446,7 +446,7 @@
             "last_commit": "2026-03-25T09:12:13Z",
             "owner": "guofei9987",
             "repo": "scikit-opt",
-            "stars": 6703
+            "stars": 6704
           }
         },
         {
@@ -474,7 +474,7 @@
             "last_commit": "2026-08-17T10:42:56Z",
             "owner": "uber",
             "repo": "causalml",
-            "stars": 5957
+            "stars": 5961
           }
         },
         {
@@ -488,7 +488,7 @@
             "last_commit": "2026-08-09T13:37:54Z",
             "owner": "mlpack",
             "repo": "mlpack",
-            "stars": 5700
+            "stars": 5701
           }
         },
         {
@@ -499,10 +499,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-17T22:06:54Z",
+            "last_commit": "2026-08-19T05:32:35Z",
             "owner": "NVIDIA",
             "repo": "cuml",
-            "stars": 5253
+            "stars": 5255
           }
         },
         {
@@ -558,7 +558,7 @@
             "last_commit": "2024-11-19T02:09:54Z",
             "owner": "unslothai",
             "repo": "hyperlearn",
-            "stars": 2494
+            "stars": 2496
           }
         },
         {
@@ -586,7 +586,7 @@
             "last_commit": "2026-08-03T03:34:45Z",
             "owner": "csinva",
             "repo": "imodels",
-            "stars": 1614
+            "stars": 1615
           }
         },
         {
@@ -846,10 +846,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-18T05:37:52Z",
+            "last_commit": "2026-08-19T05:47:23Z",
             "owner": "pytorch",
             "repo": "pytorch",
-            "stars": 102447
+            "stars": 102472
           }
         },
         {
@@ -860,10 +860,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-18T04:09:22Z",
+            "last_commit": "2026-08-19T04:58:20Z",
             "owner": "ultralytics",
             "repo": "ultralytics",
-            "stars": 60709
+            "stars": 60753
           }
         },
         {
@@ -877,7 +877,7 @@
             "last_commit": "2026-08-16T10:37:11Z",
             "owner": "ultralytics",
             "repo": "yolov5",
-            "stars": 57893
+            "stars": 57901
           }
         },
         {
@@ -891,7 +891,7 @@
             "last_commit": "2026-08-17T23:02:36Z",
             "owner": "pyg-team",
             "repo": "pytorch_geometric",
-            "stars": 24017
+            "stars": 24018
           }
         },
         {
@@ -902,10 +902,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-17T21:56:52Z",
+            "last_commit": "2026-08-18T23:16:12Z",
             "owner": "pytorch",
             "repo": "vision",
-            "stars": 17871
+            "stars": 17872
           }
         },
         {
@@ -919,7 +919,7 @@
             "last_commit": "2026-08-15T17:32:13Z",
             "owner": "ultralytics",
             "repo": "yolov3",
-            "stars": 10591
+            "stars": 10592
           }
         },
         {
@@ -933,7 +933,7 @@
             "last_commit": "2026-08-04T04:33:37Z",
             "owner": "pyro-ppl",
             "repo": "pyro",
-            "stars": 9038
+            "stars": 9039
           }
         },
         {
@@ -1014,10 +1014,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-17T11:40:43Z",
+            "last_commit": "2026-08-18T11:40:49Z",
             "owner": "pytorch",
             "repo": "audio",
-            "stars": 2926
+            "stars": 2925
           }
         },
         {
@@ -1090,10 +1090,10 @@
           "repo_info": {
             "archived": false,
             "language": "C++",
-            "last_commit": "2026-08-18T05:40:12Z",
+            "last_commit": "2026-08-19T05:44:20Z",
             "owner": "tensorflow",
             "repo": "tensorflow",
-            "stars": 197024
+            "stars": 197054
           }
         },
         {
@@ -1121,7 +1121,7 @@
             "last_commit": "2026-07-07T22:31:42Z",
             "owner": "google-deepmind",
             "repo": "sonnet",
-            "stars": 9949
+            "stars": 9957
           }
         },
         {
@@ -1351,7 +1351,7 @@
             "last_commit": "2024-01-21T16:47:04Z",
             "owner": "danielegrattarola",
             "repo": "spektral",
-            "stars": 2395
+            "stars": 2396
           }
         },
         {
@@ -1452,10 +1452,10 @@
           "repo_info": {
             "archived": false,
             "language": "JavaScript",
-            "last_commit": "2026-08-17T20:07:00Z",
+            "last_commit": "2026-08-18T12:11:10Z",
             "owner": "lutzroeder",
             "repo": "netron",
-            "stars": 33362
+            "stars": 33363
           }
         },
         {
@@ -1469,7 +1469,7 @@
             "last_commit": "2026-03-30T21:27:28Z",
             "owner": "microsoft",
             "repo": "tensorwatch",
-            "stars": 3471
+            "stars": 3472
           }
         },
         {
@@ -1483,7 +1483,7 @@
             "last_commit": "2026-04-20T13:02:16Z",
             "owner": "vizzuhq",
             "repo": "vizzu-lib",
-            "stars": 2017
+            "stars": 2019
           }
         },
         {
@@ -1497,7 +1497,7 @@
             "last_commit": "2026-07-08T23:56:19Z",
             "owner": "sachinhosmani",
             "repo": "torchvista",
-            "stars": 757
+            "stars": 758
           }
         },
         {
@@ -1730,6 +1730,20 @@
         },
         {
           "node_type": "item",
+          "title": "HDD Price Index",
+          "description": "Daily open dataset of the cheapest new internal 3.5\" SATA hard-drive price per terabyte (USD/TB) by capacity tier on Amazon US, with a historical time series. CSV, JSON and JSONL, no login, CC BY 4.0.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-19T01:20:40Z",
+            "owner": "AdamDudley",
+            "repo": "hddhunt-price-index",
+            "stars": 0
+          }
+        },
+        {
+          "node_type": "item",
           "title": "AI Displacement Tracker",
           "description": "Structured dataset tracking 92 AI-attributed workforce reduction events affecting 453,748 workers across 12 countries and 11 sectors. JSON and CSV formats. CC-BY-4.0 licensed.",
           "children": []
@@ -1751,7 +1765,7 @@
             "last_commit": "2026-08-16T13:31:43Z",
             "owner": "vinta",
             "repo": "awesome-python",
-            "stars": 314545
+            "stars": 314753
           }
         },
         {
@@ -1765,7 +1779,7 @@
             "last_commit": "2026-08-04T19:54:53Z",
             "owner": "awesomedata",
             "repo": "awesome-public-datasets",
-            "stars": 78131
+            "stars": 78143
           }
         },
         {
@@ -1779,7 +1793,7 @@
             "last_commit": "2026-08-11T21:49:59Z",
             "owner": "josephmisiti",
             "repo": "awesome-machine-learning",
-            "stars": 74047
+            "stars": 74067
           }
         },
         {
@@ -1807,7 +1821,7 @@
             "last_commit": "2024-03-20T13:52:34Z",
             "owner": "donnemartin",
             "repo": "data-science-ipython-notebooks",
-            "stars": 29303
+            "stars": 29304
           }
         },
         {
@@ -1821,7 +1835,7 @@
             "last_commit": "2024-06-11T04:49:29Z",
             "owner": "ZuzooVn",
             "repo": "machine-learning-for-software-engineers",
-            "stars": 28860
+            "stars": 28864
           }
         },
         {
@@ -1835,7 +1849,7 @@
             "last_commit": "2024-06-12T08:11:59Z",
             "owner": "ujjwalkarn",
             "repo": "Machine-Learning-Tutorials",
-            "stars": 18108
+            "stars": 18109
           }
         },
         {
@@ -1849,7 +1863,7 @@
             "last_commit": "2026-03-23T20:19:22Z",
             "owner": "jnv",
             "repo": "lists",
-            "stars": 11425
+            "stars": 11422
           }
         },
         {
@@ -1860,10 +1874,10 @@
           "repo_info": {
             "archived": false,
             "language": "HTML",
-            "last_commit": "2026-06-01T07:56:13Z",
+            "last_commit": "2026-08-18T07:04:22Z",
             "owner": "alexeygrigorev",
             "repo": "data-science-interviews",
-            "stars": 10114
+            "stars": 10115
           }
         },
         {
@@ -1891,7 +1905,7 @@
             "last_commit": "2025-09-18T16:46:19Z",
             "owner": "qinwf",
             "repo": "awesome-R",
-            "stars": 6498
+            "stars": 6499
           }
         },
         {
@@ -1919,7 +1933,7 @@
             "last_commit": "2024-01-26T12:36:48Z",
             "owner": "hal9ai",
             "repo": "awesome-dataviz",
-            "stars": 4378
+            "stars": 4379
           }
         },
         {
@@ -1947,7 +1961,7 @@
             "last_commit": "2023-11-11T19:46:32Z",
             "owner": "veb-101",
             "repo": "Data-Science-Projects",
-            "stars": 2759
+            "stars": 2760
           }
         },
         {
@@ -2003,7 +2017,7 @@
             "last_commit": "2026-01-05T12:28:59Z",
             "owner": "benedekrozemberczki",
             "repo": "awesome-fraud-detection-papers",
-            "stars": 1823
+            "stars": 1824
           }
         },
         {
@@ -2017,7 +2031,7 @@
             "last_commit": "2026-08-09T10:44:21Z",
             "owner": "PavelGrigoryevDS",
             "repo": "awesome-data-analysis",
-            "stars": 1803
+            "stars": 1811
           }
         },
         {
@@ -2137,9 +2151,9 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-18T05:50:05.617Z",
+    "last_updated": "2026-08-19T05:51:03.333Z",
     "original_repository": "academic/awesome-datascience",
-    "original_repository_sha": "e10c236f7c9d36bbace78b17570fccd9046c094b",
+    "original_repository_sha": "936a76248cbe5fd8be422dc655b62ea5b570769a",
     "enhanced_repository": "enhansome/enhansome-datascience",
     "enhanced_repository_description": null,
     "title": "AWESOME DATA SCIENCE with stars"
