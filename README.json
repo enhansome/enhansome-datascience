@@ -1,1758 +1,1825 @@
 {
   "items": [
     {
-      "description": "",
-      "items": [],
-      "title": "$ academic"
-    },
-    {
-      "description": "Become a sponsor!",
-      "items": [],
-      "title": "Sponsors"
-    },
-    {
-      "description": "Data Science is one of the hottest topics on the Computer and Internet farmland nowadays. People have gathered data from applications and systems until today and now is the time to analyze them. The next steps are producing suggestions from the data and creating predictions about the future. Here you can find the biggest question for Data Science and hundreds of answers from experts.",
-      "items": [],
-      "title": "What is Data Science?"
-    },
-    {
-      "description": "While not strictly necessary, having a programming language is a crucial skill to be effective as a data scientist. Currently, the most popular language is Python, closely followed by R. Python is a general-purpose scripting language that sees applications in a wide variety of fields. R is a domain-specific language for statistics, which contains a lot of common statistics tools out of the box.\nPython is by far the most popular language in science, due in no small part to the ease at which it can be used and the vibrant ecosystem of user-generated packages. To install packages, there are two main methods: Pip (invoked as ), the package manager that comes bundled with Python, and Anaconda (invoked as ), a powerful package manager that can install packages for Python, R, and can download executables like Git.\nUnlike R, Python was not built from the ground up with data science in mind, but there are plenty of third party libraries to make up for this. A much more exhaustive list of packages can be found later in this document, but these four packages are a good set of choices to start your data science journey with: Scikit-Learn is a general-purpose data science package which implements the most popular algorithms - it also includes rich documentation, tutorials, and examples of the models it implements. Even if you prefer to write your own implementations, Scikit-Learn is a valuable reference to the nuts-and-bolts behind many of the common algorithms you'll find. With Pandas, one can collect and analyze their data into a convenient table format. Numpy provides very fast tooling for mathematical operations, with a focus on vectors and matrices. Seaborn, itself based on the Matplotlib package, is a quick way to generate beautiful visualizations of your data, with many good defaults available out of the box, as well as a gallery showing how to produce many common visualizations of your data.\nWhen embarking on your journey to becoming a data scientist, the choice of language isn't particularly important, and both Python and R have their pros and cons. Pick a language you like, and check out one of the Free courses we've listed below!",
-      "items": [],
-      "title": "Where do I Start?"
-    },
-    {
       "description": "This section contains agent frameworks and tools that are useful for data science workflows.",
-      "items": [],
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "ADK-Rust",
+              "description": "Production-ready AI agent development kit for Rust with model-agnostic design (Gemini, OpenAI, Anthropic), multiple agent types (LLM, Graph, Workflow), MCP support, and built-in telemetry.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1102340385,
+                "language": "Rust",
+                "last_commit": "2026-08-19T02:46:48Z",
+                "owner": "zavora-ai",
+                "repo": "adk-rust",
+                "stars": 614
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Lumen",
+              "description": "Agent framework for chatting with data, turning natural language into SQL, transformation pipelines and visualizations. Outputs are declarative specs that can be inspected, edited, reopened in a notebook or composed into a dashboard.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 261830808,
+                "language": "Python",
+                "last_commit": "2026-08-19T11:27:38Z",
+                "owner": "holoviz",
+                "repo": "lumen",
+                "stars": 308
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Frameworks"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "ai-evaluation",
+              "description": "Open-source LLM and agent evaluation framework with 50+ metrics, LLM-as-Judge augmentation, and guardrail scanners (jailbreak, PII, prompt-injection). Useful for scoring RAG outputs, agent trajectories, and function-calling behavior in data-science workflows.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1000146565,
+                "language": "Python",
+                "last_commit": "2026-08-19T08:13:21Z",
+                "owner": "future-agi",
+                "repo": "agent-learning-kit",
+                "stars": 117
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "DeepAlpha",
+              "description": "AI crypto trading framework using LightGBM + XGBoost ensemble with 72 ML features. 70.9% walk-forward validated accuracy on out-of-sample data. Supports Bybit and Binance. MIT licensed, available on PyPI.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1204619991,
+                "language": "Python",
+                "last_commit": "2026-05-12T16:21:49Z",
+                "owner": "stefanoviana",
+                "repo": "deepalpha",
+                "stars": 41
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CAJAL",
+              "description": "Local AI agent for generating publication-ready scientific papers with real arXiv citations, IMRaD structure, and tribunal scoring. Runs 100% offline via Ollama with 4B-9B models. MIT licensed. HuggingFace",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1227155975,
+                "language": "Python",
+                "last_commit": "2026-06-02T07:20:07Z",
+                "owner": "Agnuxo1",
+                "repo": "CAJAL",
+                "stars": 20
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Not Human Search",
+              "description": "Search engine for AI agents that indexes 9,000+ AI tools and APIs, scoring each on agentic readiness (llms.txt, OpenAPI, MCP, ai-plugin.json). REST API and MCP server for programmatic tool discovery. GitHub",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1209942623,
+                "language": "Go",
+                "last_commit": "2026-08-14T04:47:49Z",
+                "owner": "unitedideas",
+                "repo": "nothumansearch",
+                "stars": 8
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Arch Tools",
+              "description": "61 production-ready AI API tools for data science workflows: code analysis, web scraping, NLP, image generation, crypto data, and search. REST API and MCP protocol support. GitHub",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1171031623,
+                "language": "HTML",
+                "last_commit": "2026-08-12T05:13:19Z",
+                "owner": "Deesmo",
+                "repo": "Arch-AI-Tools",
+                "stars": 1
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Tools"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "II-Commons",
+              "description": "Daily-updated skill and CLI for deterministic retrieval across arXiv, PubMed/PMC, and supported US policy corpora.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1249199315,
+                "language": "JavaScript",
+                "last_commit": "2026-07-08T12:43:56Z",
+                "owner": "Intelligent-Internet",
+                "repo": "II-Commons-Skills",
+                "stars": 14
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Chunk Tuner",
+              "description": "Open-source Python library and MCP server to benchmark document chunking strategies for RAG, score retrieval quality, and recommend configurations for a corpus.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1227063460,
+                "language": "Python",
+                "last_commit": "2026-06-21T06:26:13Z",
+                "owner": "shantanu-deshmukh",
+                "repo": "chunktuner",
+                "stars": 2
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Research & Knowledge Retrieval"
+        }
+      ],
       "title": "Agents"
     },
     {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "ADK-Rust",
-          "description": "Production-ready AI agent development kit for Rust with model-agnostic design (Gemini, OpenAI, Anthropic), multiple agent types (LLM, Graph, Workflow), MCP support, and built-in telemetry.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-08-19T02:46:48Z",
-            "owner": "zavora-ai",
-            "repo": "adk-rust",
-            "stars": 613
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Lumen",
-          "description": "Agent framework for chatting with data, turning natural language into SQL, transformation pipelines and visualizations. Outputs are declarative specs that can be inspected, edited, reopened in a notebook or composed into a dashboard.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T19:44:20Z",
-            "owner": "holoviz",
-            "repo": "lumen",
-            "stars": 307
-          }
-        }
-      ],
-      "title": "Frameworks"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "ai-evaluation",
-          "description": "Open-source LLM and agent evaluation framework with 50+ metrics, LLM-as-Judge augmentation, and guardrail scanners (jailbreak, PII, prompt-injection). Useful for scoring RAG outputs, agent trajectories, and function-calling behavior in data-science workflows.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T20:37:27Z",
-            "owner": "future-agi",
-            "repo": "agent-learning-kit",
-            "stars": 117
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "DeepAlpha",
-          "description": "AI crypto trading framework using LightGBM + XGBoost ensemble with 72 ML features. 70.9% walk-forward validated accuracy on out-of-sample data. Supports Bybit and Binance. MIT licensed, available on PyPI.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-05-12T16:21:49Z",
-            "owner": "stefanoviana",
-            "repo": "deepalpha",
-            "stars": 41
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "CAJAL",
-          "description": "Local AI agent for generating publication-ready scientific papers with real arXiv citations, IMRaD structure, and tribunal scoring. Runs 100% offline via Ollama with 4B-9B models. MIT licensed. HuggingFace",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-06-02T07:20:07Z",
-            "owner": "Agnuxo1",
-            "repo": "CAJAL",
-            "stars": 20
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Not Human Search",
-          "description": "Search engine for AI agents that indexes 9,000+ AI tools and APIs, scoring each on agentic readiness (llms.txt, OpenAPI, MCP, ai-plugin.json). REST API and MCP server for programmatic tool discovery. GitHub",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-14T04:47:49Z",
-            "owner": "unitedideas",
-            "repo": "nothumansearch",
-            "stars": 8
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Arch Tools",
-          "description": "61 production-ready AI API tools for data science workflows: code analysis, web scraping, NLP, image generation, crypto data, and search. REST API and MCP protocol support. GitHub",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "HTML",
-            "last_commit": "2026-08-12T05:13:19Z",
-            "owner": "Deesmo",
-            "repo": "Arch-AI-Tools",
-            "stars": 1
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Frostbyte MCP",
-          "description": "MCP server providing 13 data tools for AI agents: real-time crypto prices, IP geolocation, DNS lookups, web scraping to markdown, code execution, and screenshots. One API key for 40+ services.",
-          "children": []
-        }
-      ],
-      "title": "Tools"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "II-Commons",
-          "description": "Daily-updated skill and CLI for deterministic retrieval across arXiv, PubMed/PMC, and supported US policy corpora.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-07-08T12:43:56Z",
-            "owner": "Intelligent-Internet",
-            "repo": "II-Commons-Skills",
-            "stars": 14
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Chunk Tuner",
-          "description": "Open-source Python library and MCP server to benchmark document chunking strategies for RAG, score retrieval quality, and recommend configurations for a corpus.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-06-21T06:26:13Z",
-            "owner": "shantanu-deshmukh",
-            "repo": "chunktuner",
-            "stars": 2
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "BGPT MCP",
-          "description": "MCP server that gives AI agents access to a database of scientific papers built from raw experimental data extracted from full-text studies. Returns 25+ structured fields per paper including methods, results, sample sizes, and quality scores. GitHub",
-          "children": []
-        }
-      ],
-      "title": "Research & Knowledge Retrieval"
-    },
-    {
       "description": "How do you learn data science? By doing data science, of course! Okay, okay - that might not be particularly helpful when you're first starting out. In this section, we've listed some learning resources, in rough order from least to greatest commitment - Tutorials, Massively Open Online Courses (MOOCs), Intensive Programs, and Colleges.",
-      "items": [],
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Minimum Viable Study Plan for Machine Learning Interviews",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 286663639,
+                "language": null,
+                "last_commit": "2023-08-31T17:49:30Z",
+                "owner": "khangich",
+                "repo": "machine-learning-interview",
+                "stars": 12784
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Train LLM From Scratch",
+              "description": "A straightforward method for training your LLM, from downloading data to generating text.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 915520679,
+                "language": "Python",
+                "last_commit": "2026-08-17T05:07:26Z",
+                "owner": "FareedKhan-dev",
+                "repo": "train-llm-from-scratch",
+                "stars": 9214
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "#tidytuesday",
+              "description": "A weekly data project aimed at the R ecosystem.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 125241352,
+                "language": "HTML",
+                "last_commit": "2026-08-17T13:10:16Z",
+                "owner": "rfordatascience",
+                "repo": "tidytuesday",
+                "stars": 8348
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Tutorials of source code from the book Genetic Algorithms with Python by Clinton Sheppard",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 73397694,
+                "language": "Python",
+                "last_commit": "2022-10-17T21:49:44Z",
+                "owner": "handcraftsman",
+                "repo": "GeneticAlgorithmsWithPython",
+                "stars": 1259
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "PySpark Cheatsheet",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 174259884,
+                "language": null,
+                "last_commit": "2023-02-21T13:19:32Z",
+                "owner": "kevinschaich",
+                "repo": "pyspark-cheatsheet",
+                "stars": 697
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Data science your way",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 38749601,
+                "language": "Jupyter Notebook",
+                "last_commit": "2021-04-25T10:02:13Z",
+                "owner": "jadianes",
+                "repo": "data-science-your-way",
+                "stars": 618
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Tutorials to get started on signal processing for machine learning",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 317085241,
+                "language": "Jupyter Notebook",
+                "last_commit": "2022-09-16T09:05:55Z",
+                "owner": "jinglescode",
+                "repo": "python-signal-processing",
+                "stars": 86
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Tutorials"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "AI Expert Roadmap",
+              "description": "Roadmap to becoming an Artificial Intelligence Expert",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 306977633,
+                "language": "JavaScript",
+                "last_commit": "2025-09-12T14:59:30Z",
+                "owner": "AMAI-GmbH",
+                "repo": "AI-Expert-Roadmap",
+                "stars": 31215
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Data Science",
+              "description": "Open Source Society University",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 61486207,
+                "language": null,
+                "last_commit": "2025-05-13T02:19:48Z",
+                "owner": "ossu",
+                "repo": "data-science",
+                "stars": 21896
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Hands-on Train and Deploy ML",
+              "description": "A hands-on course to train and deploy a serverless API that predicts crypto prices.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 641373198,
+                "language": "Python",
+                "last_commit": "2024-05-29T14:48:32Z",
+                "owner": "Paulescu",
+                "repo": "hands-on-train-and-deploy-ml",
+                "stars": 887
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "MLSys-NYU-2022",
+              "description": "Slides, scripts and materials for the Machine Learning in Finance course at NYU Tandon, 2022.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 519358814,
+                "language": "Jupyter Notebook",
+                "last_commit": "2022-12-11T23:07:20Z",
+                "owner": "jacopotagliabue",
+                "repo": "MLSys-NYU-2022",
+                "stars": 558
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Free Courses"
+        }
+      ],
       "title": "Training Resources"
     },
     {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Minimum Viable Study Plan for Machine Learning Interviews",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2023-08-31T17:49:30Z",
-            "owner": "khangich",
-            "repo": "machine-learning-interview",
-            "stars": 12784
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Train LLM From Scratch",
-          "description": "A straightforward method for training your LLM, from downloading data to generating text.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-17T05:07:26Z",
-            "owner": "FareedKhan-dev",
-            "repo": "train-llm-from-scratch",
-            "stars": 9204
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "#tidytuesday",
-          "description": "A weekly data project aimed at the R ecosystem.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "HTML",
-            "last_commit": "2026-08-17T13:10:16Z",
-            "owner": "rfordatascience",
-            "repo": "tidytuesday",
-            "stars": 8345
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Tutorials of source code from the book Genetic Algorithms with Python by Clinton Sheppard",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2022-10-17T21:49:44Z",
-            "owner": "handcraftsman",
-            "repo": "GeneticAlgorithmsWithPython",
-            "stars": 1259
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "PySpark Cheatsheet",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2023-02-21T13:19:32Z",
-            "owner": "kevinschaich",
-            "repo": "pyspark-cheatsheet",
-            "stars": 697
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Data science your way",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2021-04-25T10:02:13Z",
-            "owner": "jadianes",
-            "repo": "data-science-your-way",
-            "stars": 618
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Tutorials to get started on signal processing for machine learning",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2022-09-16T09:05:55Z",
-            "owner": "jinglescode",
-            "repo": "python-signal-processing",
-            "stars": 86
-          }
-        }
-      ],
-      "title": "Tutorials"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "AI Expert Roadmap",
-          "description": "Roadmap to becoming an Artificial Intelligence Expert",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2025-09-12T14:59:30Z",
-            "owner": "AMAI-GmbH",
-            "repo": "AI-Expert-Roadmap",
-            "stars": 31214
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Data Science",
-          "description": "Open Source Society University",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2025-05-13T02:19:48Z",
-            "owner": "ossu",
-            "repo": "data-science",
-            "stars": 21896
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Hands-on Train and Deploy ML",
-          "description": "A hands-on course to train and deploy a serverless API that predicts crypto prices.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-05-29T14:48:32Z",
-            "owner": "Paulescu",
-            "repo": "hands-on-train-and-deploy-ml",
-            "stars": 887
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "MLSys-NYU-2022",
-          "description": "Slides, scripts and materials for the Machine Learning in Finance course at NYU Tandon, 2022.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2022-12-11T23:07:20Z",
-            "owner": "jacopotagliabue",
-            "repo": "MLSys-NYU-2022",
-            "stars": 558
-          }
-        }
-      ],
-      "title": "Free Courses"
-    },
-    {
       "description": "This section is a collection of packages, tools, algorithms, and other useful items in the data science world.",
-      "items": [],
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "JAX",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 154739597,
+                "language": "Python",
+                "last_commit": "2026-08-19T10:12:11Z",
+                "owner": "jax-ml",
+                "repo": "jax",
+                "stars": 36178
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "XGBoost",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 16587283,
+                "language": "C++",
+                "last_commit": "2026-08-19T04:06:51Z",
+                "owner": "dmlc",
+                "repo": "xgboost",
+                "stars": 28669
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "LightGBM",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 64991887,
+                "language": "C++",
+                "last_commit": "2026-08-19T02:59:23Z",
+                "owner": "lightgbm-org",
+                "repo": "LightGBM",
+                "stars": 18699
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "dlib",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 16331291,
+                "language": "C++",
+                "last_commit": "2026-08-11T03:03:36Z",
+                "owner": "davisking",
+                "repo": "dlib",
+                "stars": 14432
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CatBoost",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 97556265,
+                "language": "C++",
+                "last_commit": "2026-08-19T04:09:33Z",
+                "owner": "catboost",
+                "repo": "catboost",
+                "stars": 9069
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "scikit-opt",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 113166974,
+                "language": "Python",
+                "last_commit": "2026-03-25T09:12:13Z",
+                "owner": "guofei9987",
+                "repo": "scikit-opt",
+                "stars": 6704
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "scikit-image",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 2014929,
+                "language": "Python",
+                "last_commit": "2026-08-17T11:07:09Z",
+                "owner": "scikit-image",
+                "repo": "scikit-image",
+                "stars": 6572
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "causalml",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 195914972,
+                "language": "Python",
+                "last_commit": "2026-08-17T10:42:56Z",
+                "owner": "uber",
+                "repo": "causalml",
+                "stars": 5961
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "mlpack",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 28149409,
+                "language": "C++",
+                "last_commit": "2026-08-09T13:37:54Z",
+                "owner": "mlpack",
+                "repo": "mlpack",
+                "stars": 5700
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "cuML",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 152616802,
+                "language": "Python",
+                "last_commit": "2026-08-19T07:57:46Z",
+                "owner": "NVIDIA",
+                "repo": "cuml",
+                "stars": 5255
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "MLxtend",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 22937749,
+                "language": "Python",
+                "last_commit": "2026-08-05T14:38:28Z",
+                "owner": "rasbt",
+                "repo": "mlxtend",
+                "stars": 5165
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Deepchecks",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 415969774,
+                "language": "Python",
+                "last_commit": "2025-12-28T12:07:44Z",
+                "owner": "deepchecks",
+                "repo": "deepchecks",
+                "stars": 4047
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "xLearn",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 93925242,
+                "language": "C++",
+                "last_commit": "2023-08-28T05:14:10Z",
+                "owner": "aksnzhy",
+                "repo": "xlearn",
+                "stars": 3092
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "hyperlearn",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 146321178,
+                "language": "Jupyter Notebook",
+                "last_commit": "2024-11-19T02:09:54Z",
+                "owner": "unslothai",
+                "repo": "hyperlearn",
+                "stars": 2496
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "modAL",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 110697473,
+                "language": "Python",
+                "last_commit": "2024-02-26T15:38:11Z",
+                "owner": "modAL-python",
+                "repo": "modAL",
+                "stars": 2360
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "imodels",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 195266931,
+                "language": "Jupyter Notebook",
+                "last_commit": "2026-08-03T03:34:45Z",
+                "owner": "csinva",
+                "repo": "imodels",
+                "stars": 1615
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "scikit-feature",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 45693656,
+                "language": "Python",
+                "last_commit": "2024-07-11T09:07:01Z",
+                "owner": "jundongl",
+                "repo": "scikit-feature",
+                "stars": 1583
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Sparkit-learn",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 25257051,
+                "language": "Python",
+                "last_commit": "2020-12-31T01:56:49Z",
+                "owner": "lensacom",
+                "repo": "sparkit-learn",
+                "stars": 1150
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "pyGAM",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 79413341,
+                "language": "Python",
+                "last_commit": "2026-04-21T15:12:58Z",
+                "owner": "dswah",
+                "repo": "pyGAM",
+                "stars": 1011
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "scikit-multilearn",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 19313806,
+                "language": "Python",
+                "last_commit": "2024-02-01T04:40:03Z",
+                "owner": "scikit-multilearn",
+                "repo": "scikit-multilearn",
+                "stars": 957
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "sklearn-deap",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 45146653,
+                "language": "Jupyter Notebook",
+                "last_commit": "2024-02-10T07:16:54Z",
+                "owner": "rsteca",
+                "repo": "sklearn-deap",
+                "stars": 773
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "seqlearn",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 11797696,
+                "language": "Python",
+                "last_commit": "2023-03-24T08:01:57Z",
+                "owner": "larsmans",
+                "repo": "seqlearn",
+                "stars": 706
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "PerpetualBooster",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 803330098,
+                "language": "Rust",
+                "last_commit": "2026-04-02T10:41:37Z",
+                "owner": "perpetual-ml",
+                "repo": "perpetual",
+                "stars": 706
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "pystruct",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 4562600,
+                "language": "Python",
+                "last_commit": "2021-09-23T03:21:43Z",
+                "owner": "pystruct",
+                "repo": "pystruct",
+                "stars": 667
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "sklearn-bayes",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 39928875,
+                "language": "Jupyter Notebook",
+                "last_commit": "2021-09-22T21:54:32Z",
+                "owner": "AmazaspShumik",
+                "repo": "sklearn-bayes",
+                "stars": 524
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "sklearn-expertsys",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 52333038,
+                "language": "Python",
+                "last_commit": "2017-08-11T09:05:04Z",
+                "owner": "tmadl",
+                "repo": "sklearn-expertsys",
+                "stars": 492
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "RuleFit",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 44395554,
+                "language": "Python",
+                "last_commit": "2023-10-08T11:50:48Z",
+                "owner": "christophM",
+                "repo": "rulefit",
+                "stars": 445
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "sklearn-crfsuite",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 46947105,
+                "language": "Python",
+                "last_commit": "2026-04-08T20:49:07Z",
+                "owner": "TeamHG-Memex",
+                "repo": "sklearn-crfsuite",
+                "stars": 440
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "scikit-rebate",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 68609247,
+                "language": "Python",
+                "last_commit": "2023-02-10T06:20:14Z",
+                "owner": "EpistasisLab",
+                "repo": "scikit-rebate",
+                "stars": 421
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "scikit-posthocs",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 95150484,
+                "language": "Python",
+                "last_commit": "2026-07-24T18:03:02Z",
+                "owner": "maximtrp",
+                "repo": "scikit-posthocs",
+                "stars": 386
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "sigopt_sklearn",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 56349398,
+                "language": "Python",
+                "last_commit": "2023-08-22T20:43:23Z",
+                "owner": "sigopt",
+                "repo": "sigopt-sklearn",
+                "stars": 75
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "jSciPy",
+              "description": "A Java port of SciPy's signal processing module, offering filters, transformations, and other scientific computing utilities.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1094424339,
+                "language": "Java",
+                "last_commit": "2026-06-21T06:42:12Z",
+                "owner": "hissain",
+                "repo": "jscipy",
+                "stars": 23
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "sklearn-evaluation",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 589342851,
+                "language": null,
+                "last_commit": "2023-01-15T22:50:39Z",
+                "owner": "edublancas",
+                "repo": "sklearn-evaluation",
+                "stars": 3
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "General Machine Learning Packages"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "PyTorch",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 65600975,
+                    "language": "Python",
+                    "last_commit": "2026-08-19T12:12:11Z",
+                    "owner": "pytorch",
+                    "repo": "pytorch",
+                    "stars": 102479
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Yolov8",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 535360445,
+                    "language": "Python",
+                    "last_commit": "2026-08-19T12:13:15Z",
+                    "owner": "ultralytics",
+                    "repo": "ultralytics",
+                    "stars": 60760
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Yolov5",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 264818686,
+                    "language": "Python",
+                    "last_commit": "2026-08-16T10:37:11Z",
+                    "owner": "ultralytics",
+                    "repo": "yolov5",
+                    "stars": 57904
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "pytorch_geometric",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 106024057,
+                    "language": "Python",
+                    "last_commit": "2026-08-17T23:02:36Z",
+                    "owner": "pyg-team",
+                    "repo": "pytorch_geometric",
+                    "stars": 24018
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "torchvision",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 73328905,
+                    "language": "Python",
+                    "last_commit": "2026-08-19T11:40:42Z",
+                    "owner": "pytorch",
+                    "repo": "vision",
+                    "stars": 17872
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Yolov3",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 146165888,
+                    "language": "Python",
+                    "last_commit": "2026-08-15T17:32:13Z",
+                    "owner": "ultralytics",
+                    "repo": "yolov3",
+                    "stars": 10594
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "pyro",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 94506832,
+                    "language": "Python",
+                    "last_commit": "2026-08-04T04:33:37Z",
+                    "owner": "pyro-ppl",
+                    "repo": "pyro",
+                    "stars": 9039
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "skorch",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 97533515,
+                    "language": "Jupyter Notebook",
+                    "last_commit": "2026-08-10T09:21:34Z",
+                    "owner": "skorch-dev",
+                    "repo": "skorch",
+                    "stars": 6171
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "ignite",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 111835796,
+                    "language": "Python",
+                    "last_commit": "2026-08-17T23:45:17Z",
+                    "owner": "pytorch",
+                    "repo": "ignite",
+                    "stars": 4775
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "GPyTorch",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 93868719,
+                    "language": "Python",
+                    "last_commit": "2026-07-10T22:03:14Z",
+                    "owner": "cornellius-gp",
+                    "repo": "gpytorch",
+                    "stars": 3905
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "torchtext",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": true,
+                    "id": 76210069,
+                    "language": "Python",
+                    "last_commit": "2025-09-10T21:39:02Z",
+                    "owner": "pytorch",
+                    "repo": "text",
+                    "stars": 3554
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Catalyst",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 145385156,
+                    "language": "Python",
+                    "last_commit": "2026-07-08T21:40:01Z",
+                    "owner": "catalyst-team",
+                    "repo": "catalyst",
+                    "stars": 3381
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "torchaudio",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 90321822,
+                    "language": "Python",
+                    "last_commit": "2026-08-19T11:40:34Z",
+                    "owner": "pytorch",
+                    "repo": "audio",
+                    "stars": 2925
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "PyTorchNet",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 76109394,
+                    "language": "Python",
+                    "last_commit": "2026-08-18T00:06:41Z",
+                    "owner": "meta-pytorch",
+                    "repo": "tnt",
+                    "stars": 1721
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "pytorch_tabular",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 321584367,
+                    "language": "Python",
+                    "last_commit": "2026-04-17T11:32:50Z",
+                    "owner": "pytorch-tabular",
+                    "repo": "pytorch_tabular",
+                    "stars": 1680
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "PyToune",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 113485248,
+                    "language": "Python",
+                    "last_commit": "2026-06-07T00:39:29Z",
+                    "owner": "freud14",
+                    "repo": "poutyne",
+                    "stars": 578
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "PyVarInf",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 123596343,
+                    "language": "Python",
+                    "last_commit": "2019-10-12T14:55:49Z",
+                    "owner": "ctallec",
+                    "repo": "pyvarinf",
+                    "stars": 362
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "PyTorch Ecosystem"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "TensorFlow",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 45717250,
+                    "language": "C++",
+                    "last_commit": "2026-08-19T12:24:16Z",
+                    "owner": "tensorflow",
+                    "repo": "tensorflow",
+                    "stars": 197061
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Ludwig",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 163346054,
+                    "language": "Python",
+                    "last_commit": "2026-08-17T21:52:31Z",
+                    "owner": "ludwig-ai",
+                    "repo": "ludwig",
+                    "stars": 11747
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Sonnet",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 87067212,
+                    "language": "Python",
+                    "last_commit": "2026-07-07T22:31:42Z",
+                    "owner": "google-deepmind",
+                    "repo": "sonnet",
+                    "stars": 9958
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "TFLearn",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 55147386,
+                    "language": "Python",
+                    "last_commit": "2024-05-06T11:34:20Z",
+                    "owner": "tflearn",
+                    "repo": "tflearn",
+                    "stars": 9575
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "TensorLayer",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 60626727,
+                    "language": "Python",
+                    "last_commit": "2023-02-18T07:58:21Z",
+                    "owner": "tensorlayer",
+                    "repo": "TensorLayer",
+                    "stars": 7381
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "tensorpack",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 48593532,
+                    "language": "Python",
+                    "last_commit": "2023-08-06T00:30:36Z",
+                    "owner": "tensorpack",
+                    "repo": "tensorpack",
+                    "stars": 6285
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Polyaxon",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 77383688,
+                    "language": "MDX",
+                    "last_commit": "2026-08-17T19:18:08Z",
+                    "owner": "polyaxon",
+                    "repo": "polyaxon",
+                    "stars": 3719
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "TensorForce",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 85491050,
+                    "language": "Python",
+                    "last_commit": "2026-07-14T05:34:38Z",
+                    "owner": "tensorforce",
+                    "repo": "tensorforce",
+                    "stars": 3306
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "TRFL",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 144027556,
+                    "language": "Python",
+                    "last_commit": "2022-12-08T18:07:05Z",
+                    "owner": "google-deepmind",
+                    "repo": "trfl",
+                    "stars": 3131
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "TF-Agents",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 157936206,
+                    "language": "Python",
+                    "last_commit": "2026-01-16T22:49:15Z",
+                    "owner": "tensorflow",
+                    "repo": "agents",
+                    "stars": 3025
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "TensorFlow Fold",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": true,
+                    "id": 79366567,
+                    "language": "Python",
+                    "last_commit": "2021-06-26T15:49:57Z",
+                    "owner": "tensorflow",
+                    "repo": "fold",
+                    "stars": 1816
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Mesh TensorFlow",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": true,
+                    "id": 149666254,
+                    "language": "Python",
+                    "last_commit": "2023-11-17T19:39:54Z",
+                    "owner": "tensorflow",
+                    "repo": "mesh",
+                    "stars": 1630
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "NeuPy",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 41323480,
+                    "language": "Python",
+                    "last_commit": "2024-11-18T15:00:19Z",
+                    "owner": "itdxer",
+                    "repo": "neupy",
+                    "stars": 736
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "tensorflow-upstream",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 128835623,
+                    "language": "C++",
+                    "last_commit": "2026-08-13T12:10:20Z",
+                    "owner": "ROCm",
+                    "repo": "tensorflow-upstream",
+                    "stars": 704
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "tfdeploy",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 53326300,
+                    "language": "Python",
+                    "last_commit": "2025-01-04T18:56:14Z",
+                    "owner": "riga",
+                    "repo": "tfdeploy",
+                    "stars": 353
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "tensorlm",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 100861317,
+                    "language": "Python",
+                    "last_commit": "2022-06-21T21:07:11Z",
+                    "owner": "batzner",
+                    "repo": "tensorlm",
+                    "stars": 60
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "TensorLight",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 71366464,
+                    "language": "Python",
+                    "last_commit": "2022-10-06T21:53:58Z",
+                    "owner": "b3nk4n",
+                    "repo": "tensorlight",
+                    "stars": 11
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "TensorFlow Ecosystem"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "keras-rl",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 62458409,
+                    "language": "Python",
+                    "last_commit": "2023-09-17T12:33:41Z",
+                    "owner": "keras-rl",
+                    "repo": "keras-rl",
+                    "stars": 5547
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Spektral",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 166213444,
+                    "language": "Python",
+                    "last_commit": "2024-01-21T16:47:04Z",
+                    "owner": "danielegrattarola",
+                    "repo": "spektral",
+                    "stars": 2396
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Hyperas",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 52094077,
+                    "language": "Python",
+                    "last_commit": "2023-01-05T06:02:49Z",
+                    "owner": "maxpumperla",
+                    "repo": "hyperas",
+                    "stars": 2173
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Talos",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 132186783,
+                    "language": "Python",
+                    "last_commit": "2024-04-22T10:30:49Z",
+                    "owner": "autonomio",
+                    "repo": "talos",
+                    "stars": 1636
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "keras-contrib",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": true,
+                    "id": 79976022,
+                    "language": "Python",
+                    "last_commit": "2022-10-21T19:02:46Z",
+                    "owner": "keras-team",
+                    "repo": "keras-contrib",
+                    "stars": 1585
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Elephas",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 40656806,
+                    "language": "Python",
+                    "last_commit": "2023-05-01T20:46:16Z",
+                    "owner": "maxpumperla",
+                    "repo": "elephas",
+                    "stars": 1577
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "qkeras",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 200931125,
+                    "language": "Python",
+                    "last_commit": "2026-02-23T18:00:06Z",
+                    "owner": "google",
+                    "repo": "qkeras",
+                    "stars": 584
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Hera",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 63009043,
+                    "language": "JavaScript",
+                    "last_commit": "2017-05-24T22:26:10Z",
+                    "owner": "keplr-io",
+                    "repo": "hera",
+                    "stars": 486
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Keras Ecosystem"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "Netron",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1198539,
+                    "language": "JavaScript",
+                    "last_commit": "2026-08-18T12:11:10Z",
+                    "owner": "lutzroeder",
+                    "repo": "netron",
+                    "stars": 33367
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "TensorWatch",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 186783422,
+                    "language": "Jupyter Notebook",
+                    "last_commit": "2026-03-30T21:27:28Z",
+                    "owner": "microsoft",
+                    "repo": "tensorwatch",
+                    "stars": 3472
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "vizzu",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 374784415,
+                    "language": "JavaScript",
+                    "last_commit": "2026-04-20T13:02:16Z",
+                    "owner": "vizzuhq",
+                    "repo": "vizzu-lib",
+                    "stars": 2020
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "torchvista",
+                  "description": "Interactive notebook-based tool to visualize the forward pass of any PyTorch model.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 958163543,
+                    "language": "Python",
+                    "last_commit": "2026-07-08T23:56:19Z",
+                    "owner": "sachinhosmani",
+                    "repo": "torchvista",
+                    "stars": 759
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Resseract Lite",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 632341172,
+                    "language": "Java",
+                    "last_commit": "2024-08-24T08:54:25Z",
+                    "owner": "abistarun",
+                    "repo": "resseract-lite",
+                    "stars": 7
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Visualization Tools"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Deep Learning Packages"
+        }
+      ],
       "title": "The Data Science Toolbox"
     },
     {
-      "description": "These are some Machine Learning and Data Mining algorithms and models help you to understand your data and derive meaning from it.",
-      "items": [],
-      "title": "Algorithms"
-    },
-    {
-      "description": "",
+      "description": null,
       "items": [
         {
-          "node_type": "item",
-          "title": "JAX",
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Covid-19",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 245619303,
+                "language": "Python",
+                "last_commit": "2026-03-24T23:16:50Z",
+                "owner": "datasets",
+                "repo": "covid-19",
+                "stars": 1165
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Open Data Sources",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 23031054,
+                "language": null,
+                "last_commit": "2018-05-08T15:39:42Z",
+                "owner": "datasciencemasters",
+                "repo": "data",
+                "stars": 523
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Public Git Archive",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 118920552,
+                "language": "Jupyter Notebook",
+                "last_commit": "2019-11-27T16:55:22Z",
+                "owner": "src-d",
+                "repo": "datasets",
+                "stars": 349
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "FirstData",
+              "description": "The world's most comprehensive authoritative data source knowledge base. 210+ curated sources from governments, international organizations, and research institutions. MCP integration for AI agents. MIT licensed.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1143280063,
+                "language": "Python",
+                "last_commit": "2026-08-17T09:27:51Z",
+                "owner": "MLT-OSS",
+                "repo": "FirstData",
+                "stars": 179
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "5000 Images of Clothes",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 296936930,
+                "language": null,
+                "last_commit": "2021-01-17T09:36:10Z",
+                "owner": "alexeygrigorev",
+                "repo": "clothing-dataset",
+                "stars": 119
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Covid-19 Google",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 265746479,
+                "language": "Python",
+                "last_commit": "2021-08-11T04:32:56Z",
+                "owner": "google-research",
+                "repo": "open-covid-19-data",
+                "stars": 117
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ZipCheckup",
+              "description": "Free ZIP-level environmental safety data for 42,000+ US ZIP codes: water quality, air quality, PFAS contamination, radon, lead, flood risk, and 11 more verticals. Public REST API, npm/PyPI packages, CC BY 4.0.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1183621453,
+                "language": null,
+                "last_commit": "2026-08-19T07:21:13Z",
+                "owner": "artakulov",
+                "repo": "us-water-quality-data",
+                "stars": 4
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "NAYN.CO Turkish News with categories",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 202595546,
+                "language": null,
+                "last_commit": "2019-10-15T15:28:32Z",
+                "owner": "naynco",
+                "repo": "nayn.data",
+                "stars": 3
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "BDE Score",
+              "description": "AI-powered multi-market stock analysis with transparent BDE scoring across 73 stocks (US/HK/A-share). EU AI Act Art.50 compliant. MIT license.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1295975285,
+                "language": "Python",
+                "last_commit": "2026-08-01T03:46:15Z",
+                "owner": "hbhqq9",
+                "repo": "bde-score",
+                "stars": 3
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "US Truck-Involved Fatal Crashes (FARS) 2018-2024",
+              "description": "Filtered subset of NHTSA Fatality Analysis Reporting System covering 33,898 fatal crashes involving medium and heavy commercial trucks across all 50 US states, 2018-2024. Includes interactive Vision Zero Report Card comparing 19 cities, reproducible Python pipeline on GitHub, and HuggingFace mirror. Permanent DOI, CC BY 4.0.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1255857096,
+                "language": "Python",
+                "last_commit": "2026-06-01T09:51:50Z",
+                "owner": "MarvinBregiosa",
+                "repo": "vision-zero-fars",
+                "stars": 2
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "latamdata-py",
+              "description": "Python package for one-line access to 38 open research datasets from Latin America (health, neuroscience, mental health, economics). pip install latamdata-py.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1191532366,
+                "language": "Python",
+                "last_commit": "2026-06-23T07:43:17Z",
+                "owner": "juanmoisesd",
+                "repo": "latamdata-py",
+                "stars": 2
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Verified Supplement Evidence",
+              "description": "Evidence-graded dietary-supplement dataset covering dosing, bioavailability by form, drug-nutrient interactions, NHANES deficiency prevalence, FDA FAERS adverse-event signals, and cost-per-effective-dose, with every clinical claim citing a PubMed PMID. CC BY 4.0, DOI 10.57967/hf/9356.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1289423091,
+                "language": "HTML",
+                "last_commit": "2026-07-04T18:33:50Z",
+                "owner": "erinheit451",
+                "repo": "verified-supplement-evidence",
+                "stars": 2
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "College ROI Dataset",
+              "description": "Lifetime return-on-investment estimates for 29,700 US bachelor's programs across 3,392 colleges, built from FREOPP, IPEDS, and BEA regional price data. 5 CSVs with data dictionary, CC BY 4.0, Zenodo DOI.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1300115355,
+                "language": null,
+                "last_commit": "2026-08-13T21:04:53Z",
+                "owner": "thomasthinks",
+                "repo": "college-roi-data",
+                "stars": 0
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "HDD Price Index",
+              "description": "Daily open dataset of the cheapest new internal 3.5\" SATA hard-drive price per terabyte (USD/TB) by capacity tier on Amazon US, with a historical time series. CSV, JSON and JSONL, no login, CC BY 4.0.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1337783514,
+                "language": "Python",
+                "last_commit": "2026-08-19T01:20:40Z",
+                "owner": "AdamDudley",
+                "repo": "hddhunt-price-index",
+                "stars": 0
+              }
+            }
+          ],
           "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-19T05:25:05Z",
-            "owner": "jax-ml",
-            "repo": "jax",
-            "stars": 36174
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "XGBoost",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-08-19T04:06:51Z",
-            "owner": "dmlc",
-            "repo": "xgboost",
-            "stars": 28668
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "LightGBM",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-08-19T02:59:23Z",
-            "owner": "lightgbm-org",
-            "repo": "LightGBM",
-            "stars": 18698
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "dlib",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-08-11T03:03:36Z",
-            "owner": "davisking",
-            "repo": "dlib",
-            "stars": 14432
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "CatBoost",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-08-19T04:09:33Z",
-            "owner": "catboost",
-            "repo": "catboost",
-            "stars": 9069
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "scikit-opt",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-03-25T09:12:13Z",
-            "owner": "guofei9987",
-            "repo": "scikit-opt",
-            "stars": 6704
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "scikit-image",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-17T11:07:09Z",
-            "owner": "scikit-image",
-            "repo": "scikit-image",
-            "stars": 6572
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "causalml",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-17T10:42:56Z",
-            "owner": "uber",
-            "repo": "causalml",
-            "stars": 5961
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "mlpack",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-08-09T13:37:54Z",
-            "owner": "mlpack",
-            "repo": "mlpack",
-            "stars": 5701
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "cuML",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-19T05:32:35Z",
-            "owner": "NVIDIA",
-            "repo": "cuml",
-            "stars": 5255
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "MLxtend",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-05T14:38:28Z",
-            "owner": "rasbt",
-            "repo": "mlxtend",
-            "stars": 5165
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Deepchecks",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-12-28T12:07:44Z",
-            "owner": "deepchecks",
-            "repo": "deepchecks",
-            "stars": 4047
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "xLearn",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2023-08-28T05:14:10Z",
-            "owner": "aksnzhy",
-            "repo": "xlearn",
-            "stars": 3092
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "hyperlearn",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2024-11-19T02:09:54Z",
-            "owner": "unslothai",
-            "repo": "hyperlearn",
-            "stars": 2496
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "modAL",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-02-26T15:38:11Z",
-            "owner": "modAL-python",
-            "repo": "modAL",
-            "stars": 2360
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "imodels",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2026-08-03T03:34:45Z",
-            "owner": "csinva",
-            "repo": "imodels",
-            "stars": 1615
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "scikit-feature",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-07-11T09:07:01Z",
-            "owner": "jundongl",
-            "repo": "scikit-feature",
-            "stars": 1583
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Sparkit-learn",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2020-12-31T01:56:49Z",
-            "owner": "lensacom",
-            "repo": "sparkit-learn",
-            "stars": 1150
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "pyGAM",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-04-21T15:12:58Z",
-            "owner": "dswah",
-            "repo": "pyGAM",
-            "stars": 1011
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "scikit-multilearn",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-02-01T04:40:03Z",
-            "owner": "scikit-multilearn",
-            "repo": "scikit-multilearn",
-            "stars": 957
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "sklearn-deap",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2024-02-10T07:16:54Z",
-            "owner": "rsteca",
-            "repo": "sklearn-deap",
-            "stars": 773
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "seqlearn",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2023-03-24T08:01:57Z",
-            "owner": "larsmans",
-            "repo": "seqlearn",
-            "stars": 706
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "PerpetualBooster",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-04-02T10:41:37Z",
-            "owner": "perpetual-ml",
-            "repo": "perpetual",
-            "stars": 706
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "pystruct",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2021-09-23T03:21:43Z",
-            "owner": "pystruct",
-            "repo": "pystruct",
-            "stars": 667
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "sklearn-bayes",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2021-09-22T21:54:32Z",
-            "owner": "AmazaspShumik",
-            "repo": "sklearn-bayes",
-            "stars": 524
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "sklearn-expertsys",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2017-08-11T09:05:04Z",
-            "owner": "tmadl",
-            "repo": "sklearn-expertsys",
-            "stars": 492
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "RuleFit",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2023-10-08T11:50:48Z",
-            "owner": "christophM",
-            "repo": "rulefit",
-            "stars": 445
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "sklearn-crfsuite",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-04-08T20:49:07Z",
-            "owner": "TeamHG-Memex",
-            "repo": "sklearn-crfsuite",
-            "stars": 440
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "scikit-rebate",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2023-02-10T06:20:14Z",
-            "owner": "EpistasisLab",
-            "repo": "scikit-rebate",
-            "stars": 421
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "scikit-posthocs",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-07-24T18:03:02Z",
-            "owner": "maximtrp",
-            "repo": "scikit-posthocs",
-            "stars": 386
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "sigopt_sklearn",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Python",
-            "last_commit": "2023-08-22T20:43:23Z",
-            "owner": "sigopt",
-            "repo": "sigopt-sklearn",
-            "stars": 75
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "jSciPy",
-          "description": "A Java port of SciPy's signal processing module, offering filters, transformations, and other scientific computing utilities.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Java",
-            "last_commit": "2026-06-21T06:42:12Z",
-            "owner": "hissain",
-            "repo": "jscipy",
-            "stars": 23
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "sklearn-evaluation",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2023-01-15T22:50:39Z",
-            "owner": "edublancas",
-            "repo": "sklearn-evaluation",
-            "stars": 3
-          }
+          "node_type": "group",
+          "title": "Datasets"
         }
       ],
-      "title": "General Machine Learning Packages"
+      "title": "Fun"
     },
     {
-      "description": "",
-      "items": [],
-      "title": "Deep Learning Packages"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "PyTorch",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-19T05:47:23Z",
-            "owner": "pytorch",
-            "repo": "pytorch",
-            "stars": 102472
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Yolov8",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-19T04:58:20Z",
-            "owner": "ultralytics",
-            "repo": "ultralytics",
-            "stars": 60753
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Yolov5",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-16T10:37:11Z",
-            "owner": "ultralytics",
-            "repo": "yolov5",
-            "stars": 57901
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "pytorch_geometric",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-17T23:02:36Z",
-            "owner": "pyg-team",
-            "repo": "pytorch_geometric",
-            "stars": 24018
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "torchvision",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T23:16:12Z",
-            "owner": "pytorch",
-            "repo": "vision",
-            "stars": 17872
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Yolov3",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-15T17:32:13Z",
-            "owner": "ultralytics",
-            "repo": "yolov3",
-            "stars": 10592
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "pyro",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-04T04:33:37Z",
-            "owner": "pyro-ppl",
-            "repo": "pyro",
-            "stars": 9039
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "skorch",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2026-08-10T09:21:34Z",
-            "owner": "skorch-dev",
-            "repo": "skorch",
-            "stars": 6171
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "ignite",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-17T23:45:17Z",
-            "owner": "pytorch",
-            "repo": "ignite",
-            "stars": 4775
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "GPyTorch",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-07-10T22:03:14Z",
-            "owner": "cornellius-gp",
-            "repo": "gpytorch",
-            "stars": 3905
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "torchtext",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Python",
-            "last_commit": "2025-09-10T21:39:02Z",
-            "owner": "pytorch",
-            "repo": "text",
-            "stars": 3554
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Catalyst",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-07-08T21:40:01Z",
-            "owner": "catalyst-team",
-            "repo": "catalyst",
-            "stars": 3381
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "torchaudio",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T11:40:49Z",
-            "owner": "pytorch",
-            "repo": "audio",
-            "stars": 2925
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "PyTorchNet",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T00:06:41Z",
-            "owner": "meta-pytorch",
-            "repo": "tnt",
-            "stars": 1721
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "pytorch_tabular",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-04-17T11:32:50Z",
-            "owner": "pytorch-tabular",
-            "repo": "pytorch_tabular",
-            "stars": 1680
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "PyToune",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-06-07T00:39:29Z",
-            "owner": "freud14",
-            "repo": "poutyne",
-            "stars": 578
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "PyVarInf",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2019-10-12T14:55:49Z",
-            "owner": "ctallec",
-            "repo": "pyvarinf",
-            "stars": 362
-          }
-        }
-      ],
-      "title": "PyTorch Ecosystem"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "TensorFlow",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-08-19T05:44:20Z",
-            "owner": "tensorflow",
-            "repo": "tensorflow",
-            "stars": 197054
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Ludwig",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-17T21:52:31Z",
-            "owner": "ludwig-ai",
-            "repo": "ludwig",
-            "stars": 11748
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Sonnet",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-07-07T22:31:42Z",
-            "owner": "google-deepmind",
-            "repo": "sonnet",
-            "stars": 9957
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "TFLearn",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-05-06T11:34:20Z",
-            "owner": "tflearn",
-            "repo": "tflearn",
-            "stars": 9575
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "TensorLayer",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2023-02-18T07:58:21Z",
-            "owner": "tensorlayer",
-            "repo": "TensorLayer",
-            "stars": 7381
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "tensorpack",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2023-08-06T00:30:36Z",
-            "owner": "tensorpack",
-            "repo": "tensorpack",
-            "stars": 6285
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Polyaxon",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "MDX",
-            "last_commit": "2026-08-17T19:18:08Z",
-            "owner": "polyaxon",
-            "repo": "polyaxon",
-            "stars": 3719
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "TensorForce",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-07-14T05:34:38Z",
-            "owner": "tensorforce",
-            "repo": "tensorforce",
-            "stars": 3306
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "TRFL",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2022-12-08T18:07:05Z",
-            "owner": "google-deepmind",
-            "repo": "trfl",
-            "stars": 3131
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "TF-Agents",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-01-16T22:49:15Z",
-            "owner": "tensorflow",
-            "repo": "agents",
-            "stars": 3025
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "TensorFlow Fold",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Python",
-            "last_commit": "2021-06-26T15:49:57Z",
-            "owner": "tensorflow",
-            "repo": "fold",
-            "stars": 1816
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Mesh TensorFlow",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Python",
-            "last_commit": "2023-11-17T19:39:54Z",
-            "owner": "tensorflow",
-            "repo": "mesh",
-            "stars": 1630
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "NeuPy",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-11-18T15:00:19Z",
-            "owner": "itdxer",
-            "repo": "neupy",
-            "stars": 736
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "tensorflow-upstream",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-08-13T12:10:20Z",
-            "owner": "ROCm",
-            "repo": "tensorflow-upstream",
-            "stars": 704
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "tfdeploy",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-01-04T18:56:14Z",
-            "owner": "riga",
-            "repo": "tfdeploy",
-            "stars": 353
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "tensorlm",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2022-06-21T21:07:11Z",
-            "owner": "batzner",
-            "repo": "tensorlm",
-            "stars": 60
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "TensorLight",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2022-10-06T21:53:58Z",
-            "owner": "b3nk4n",
-            "repo": "tensorlight",
-            "stars": 11
-          }
-        }
-      ],
-      "title": "TensorFlow Ecosystem"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "keras-rl",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2023-09-17T12:33:41Z",
-            "owner": "keras-rl",
-            "repo": "keras-rl",
-            "stars": 5547
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Spektral",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-01-21T16:47:04Z",
-            "owner": "danielegrattarola",
-            "repo": "spektral",
-            "stars": 2396
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Hyperas",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2023-01-05T06:02:49Z",
-            "owner": "maxpumperla",
-            "repo": "hyperas",
-            "stars": 2173
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Talos",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-04-22T10:30:49Z",
-            "owner": "autonomio",
-            "repo": "talos",
-            "stars": 1636
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "keras-contrib",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Python",
-            "last_commit": "2022-10-21T19:02:46Z",
-            "owner": "keras-team",
-            "repo": "keras-contrib",
-            "stars": 1585
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Elephas",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2023-05-01T20:46:16Z",
-            "owner": "maxpumperla",
-            "repo": "elephas",
-            "stars": 1577
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "qkeras",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-02-23T18:00:06Z",
-            "owner": "google",
-            "repo": "qkeras",
-            "stars": 584
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Hera",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2017-05-24T22:26:10Z",
-            "owner": "keplr-io",
-            "repo": "hera",
-            "stars": 486
-          }
-        }
-      ],
-      "title": "Keras Ecosystem"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Netron",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-18T12:11:10Z",
-            "owner": "lutzroeder",
-            "repo": "netron",
-            "stars": 33363
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "TensorWatch",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2026-03-30T21:27:28Z",
-            "owner": "microsoft",
-            "repo": "tensorwatch",
-            "stars": 3472
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "vizzu",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-04-20T13:02:16Z",
-            "owner": "vizzuhq",
-            "repo": "vizzu-lib",
-            "stars": 2019
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "torchvista",
-          "description": "Interactive notebook-based tool to visualize the forward pass of any PyTorch model.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-07-08T23:56:19Z",
-            "owner": "sachinhosmani",
-            "repo": "torchvista",
-            "stars": 758
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Resseract Lite",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Java",
-            "last_commit": "2024-08-24T08:54:25Z",
-            "owner": "abistarun",
-            "repo": "resseract-lite",
-            "stars": 7
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "MetaReview",
-          "description": "Free online meta-analysis platform with 11 interactive D3.js statistical charts (forest plot, funnel plot, Galbraith, L'Abbé, Baujat, etc.), 5 effect size measures, AI literature screening, and publication-ready report export. github.com",
-          "children": []
-        }
-      ],
-      "title": "Visualization Tools"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Miscellaneous Tools"
-    },
-    {
-      "description": "This section includes some additional reading material, channels to watch, and talks to listen to.",
-      "items": [],
-      "title": "Literature and Media"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Twitter Accounts"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Infographics"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Covid-19",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-03-24T23:16:50Z",
-            "owner": "datasets",
-            "repo": "covid-19",
-            "stars": 1165
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Open Data Sources",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2018-05-08T15:39:42Z",
-            "owner": "datasciencemasters",
-            "repo": "data",
-            "stars": 523
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Public Git Archive",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2019-11-27T16:55:22Z",
-            "owner": "src-d",
-            "repo": "datasets",
-            "stars": 349
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "FirstData",
-          "description": "The world's most comprehensive authoritative data source knowledge base. 210+ curated sources from governments, international organizations, and research institutions. MCP integration for AI agents. MIT licensed.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-17T09:27:51Z",
-            "owner": "MLT-OSS",
-            "repo": "FirstData",
-            "stars": 179
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "5000 Images of Clothes",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2021-01-17T09:36:10Z",
-            "owner": "alexeygrigorev",
-            "repo": "clothing-dataset",
-            "stars": 119
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Covid-19 Google",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Python",
-            "last_commit": "2021-08-11T04:32:56Z",
-            "owner": "google-research",
-            "repo": "open-covid-19-data",
-            "stars": 117
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "ZipCheckup",
-          "description": "Free ZIP-level environmental safety data for 42,000+ US ZIP codes: water quality, air quality, PFAS contamination, radon, lead, flood risk, and 11 more verticals. Public REST API, npm/PyPI packages, CC BY 4.0.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2026-08-17T10:58:40Z",
-            "owner": "artakulov",
-            "repo": "us-water-quality-data",
-            "stars": 4
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "NAYN.CO Turkish News with categories",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2019-10-15T15:28:32Z",
-            "owner": "naynco",
-            "repo": "nayn.data",
-            "stars": 3
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "BDE Score",
-          "description": "AI-powered multi-market stock analysis with transparent BDE scoring across 73 stocks (US/HK/A-share). EU AI Act Art.50 compliant. MIT license.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-01T03:46:15Z",
-            "owner": "hbhqq9",
-            "repo": "bde-score",
-            "stars": 3
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "US Truck-Involved Fatal Crashes (FARS) 2018-2024",
-          "description": "Filtered subset of NHTSA Fatality Analysis Reporting System covering 33,898 fatal crashes involving medium and heavy commercial trucks across all 50 US states, 2018-2024. Includes interactive Vision Zero Report Card comparing 19 cities, reproducible Python pipeline on GitHub, and HuggingFace mirror. Permanent DOI, CC BY 4.0.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-06-01T09:51:50Z",
-            "owner": "MarvinBregiosa",
-            "repo": "vision-zero-fars",
-            "stars": 2
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "latamdata-py",
-          "description": "Python package for one-line access to 38 open research datasets from Latin America (health, neuroscience, mental health, economics). pip install latamdata-py.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-06-23T07:43:17Z",
-            "owner": "juanmoisesd",
-            "repo": "latamdata-py",
-            "stars": 2
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Verified Supplement Evidence",
-          "description": "Evidence-graded dietary-supplement dataset covering dosing, bioavailability by form, drug-nutrient interactions, NHANES deficiency prevalence, FDA FAERS adverse-event signals, and cost-per-effective-dose, with every clinical claim citing a PubMed PMID. CC BY 4.0, DOI 10.57967/hf/9356.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "HTML",
-            "last_commit": "2026-07-04T18:33:50Z",
-            "owner": "erinheit451",
-            "repo": "verified-supplement-evidence",
-            "stars": 2
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "College ROI Dataset",
-          "description": "Lifetime return-on-investment estimates for 29,700 US bachelor's programs across 3,392 colleges, built from FREOPP, IPEDS, and BEA regional price data. 5 CSVs with data dictionary, CC BY 4.0, Zenodo DOI.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2026-08-13T21:04:53Z",
-            "owner": "thomasthinks",
-            "repo": "college-roi-data",
-            "stars": 0
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "HDD Price Index",
-          "description": "Daily open dataset of the cheapest new internal 3.5\" SATA hard-drive price per terabyte (USD/TB) by capacity tier on Amazon US, with a historical time series. CSV, JSON and JSONL, no login, CC BY 4.0.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-19T01:20:40Z",
-            "owner": "AdamDudley",
-            "repo": "hddhunt-price-index",
-            "stars": 0
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "AI Displacement Tracker",
-          "description": "Structured dataset tracking 92 AI-attributed workforce reduction events affecting 453,748 workers across 12 countries and 11 sectors. JSON and CSV formats. CC-BY-4.0 licensed.",
-          "children": []
-        }
-      ],
-      "title": "Datasets"
-    },
-    {
-      "description": "",
+      "description": null,
       "items": [
         {
           "node_type": "item",
@@ -1761,11 +1828,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 21289110,
             "language": "Python",
             "last_commit": "2026-08-16T13:31:43Z",
             "owner": "vinta",
             "repo": "awesome-python",
-            "stars": 314753
+            "stars": 314851
           }
         },
         {
@@ -1775,6 +1843,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 26898879,
             "language": null,
             "last_commit": "2026-08-04T19:54:53Z",
             "owner": "awesomedata",
@@ -1789,11 +1858,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 21872392,
             "language": "Python",
             "last_commit": "2026-08-11T21:49:59Z",
             "owner": "josephmisiti",
             "repo": "awesome-machine-learning",
-            "stars": 74067
+            "stars": 74070
           }
         },
         {
@@ -1803,6 +1873,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 21600440,
             "language": "Ruby",
             "last_commit": "2024-06-02T22:46:41Z",
             "owner": "bayandin",
@@ -1817,11 +1888,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 29749635,
             "language": "Python",
             "last_commit": "2024-03-20T13:52:34Z",
             "owner": "donnemartin",
             "repo": "data-science-ipython-notebooks",
-            "stars": 29304
+            "stars": 29306
           }
         },
         {
@@ -1831,11 +1903,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 70431106,
             "language": null,
             "last_commit": "2024-06-11T04:49:29Z",
             "owner": "ZuzooVn",
             "repo": "machine-learning-for-software-engineers",
-            "stars": 28864
+            "stars": 28865
           }
         },
         {
@@ -1845,6 +1918,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 42360601,
             "language": null,
             "last_commit": "2024-06-12T08:11:59Z",
             "owner": "ujjwalkarn",
@@ -1859,6 +1933,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 14408715,
             "language": null,
             "last_commit": "2026-03-23T20:19:22Z",
             "owner": "jnv",
@@ -1873,6 +1948,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 244452551,
             "language": "HTML",
             "last_commit": "2026-08-18T07:04:22Z",
             "owner": "alexeygrigorev",
@@ -1887,6 +1963,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 94894966,
             "language": null,
             "last_commit": "2020-12-03T17:58:42Z",
             "owner": "src-d",
@@ -1901,6 +1978,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 22003158,
             "language": "R",
             "last_commit": "2025-09-18T16:46:19Z",
             "owner": "qinwf",
@@ -1915,6 +1993,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 140943444,
             "language": "Python",
             "last_commit": "2023-03-18T12:10:08Z",
             "owner": "benedekrozemberczki",
@@ -1929,11 +2008,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 39454666,
             "language": null,
             "last_commit": "2024-01-26T12:36:48Z",
             "owner": "hal9ai",
             "repo": "awesome-dataviz",
-            "stars": 4379
+            "stars": 4380
           }
         },
         {
@@ -1943,6 +2023,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 77934392,
             "language": null,
             "last_commit": "2021-07-09T15:21:35Z",
             "owner": "mhagiwara",
@@ -1957,6 +2038,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 262149748,
             "language": "Jupyter Notebook",
             "last_commit": "2023-11-11T19:46:32Z",
             "owner": "veb-101",
@@ -1971,6 +2053,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 186166778,
             "language": "Python",
             "last_commit": "2025-12-28T23:17:27Z",
             "owner": "benedekrozemberczki",
@@ -1985,6 +2068,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 152444880,
             "language": "Python",
             "last_commit": "2025-12-20T17:06:00Z",
             "owner": "benedekrozemberczki",
@@ -1999,6 +2083,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 374607129,
             "language": null,
             "last_commit": "2022-04-04T14:54:08Z",
             "owner": "AstraZeneca",
@@ -2013,6 +2098,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 188821801,
             "language": "Python",
             "last_commit": "2026-01-05T12:28:59Z",
             "owner": "benedekrozemberczki",
@@ -2027,11 +2113,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 1028988827,
             "language": null,
             "last_commit": "2026-08-09T10:44:21Z",
             "owner": "PavelGrigoryevDS",
             "repo": "awesome-data-analysis",
-            "stars": 1811
+            "stars": 1822
           }
         },
         {
@@ -2041,6 +2128,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 151342385,
             "language": null,
             "last_commit": "2026-08-08T01:57:45Z",
             "owner": "leomaurodesenv",
@@ -2055,6 +2143,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 186163475,
             "language": "Python",
             "last_commit": "2026-01-05T12:39:45Z",
             "owner": "benedekrozemberczki",
@@ -2069,6 +2158,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 223468637,
             "language": "Python",
             "last_commit": "2026-01-13T10:28:51Z",
             "owner": "benedekrozemberczki",
@@ -2083,6 +2173,7 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "id": 71498068,
             "language": null,
             "last_commit": "2024-01-04T11:45:43Z",
             "owner": "JosPolfliet",
@@ -2097,6 +2188,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 160491129,
             "language": null,
             "last_commit": "2021-05-09T08:20:30Z",
             "owner": "gmalivenko",
@@ -2111,6 +2203,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 352453058,
             "language": null,
             "last_commit": "2022-08-07T17:10:49Z",
             "owner": "AstraZeneca",
@@ -2125,6 +2218,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 1161485116,
             "language": null,
             "last_commit": "2026-08-05T04:48:48Z",
             "owner": "evidencesynthesis-tools",
@@ -2139,6 +2233,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 1241988306,
             "language": null,
             "last_commit": "2026-05-18T03:15:44Z",
             "owner": "aasimansari1",
@@ -2151,8 +2246,9 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-19T05:51:03.333Z",
+    "last_updated": "2026-08-19T12:25:13.953Z",
     "original_repository": "academic/awesome-datascience",
+    "original_repository_id": 21515044,
     "original_repository_sha": "936a76248cbe5fd8be422dc655b62ea5b570769a",
     "enhanced_repository": "enhansome/enhansome-datascience",
     "enhanced_repository_description": null,
