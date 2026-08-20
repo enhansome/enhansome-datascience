@@ -14,10 +14,10 @@
                 "archived": false,
                 "id": 1102340385,
                 "language": "Rust",
-                "last_commit": "2026-08-19T02:46:48Z",
+                "last_commit": "2026-08-20T05:31:59Z",
                 "owner": "zavora-ai",
                 "repo": "adk-rust",
-                "stars": 614
+                "stars": 615
               }
             },
             {
@@ -29,7 +29,7 @@
                 "archived": false,
                 "id": 261830808,
                 "language": "Python",
-                "last_commit": "2026-08-19T11:27:38Z",
+                "last_commit": "2026-08-19T21:15:34Z",
                 "owner": "holoviz",
                 "repo": "lumen",
                 "stars": 308
@@ -51,7 +51,7 @@
                 "archived": false,
                 "id": 1000146565,
                 "language": "Python",
-                "last_commit": "2026-08-19T08:13:21Z",
+                "last_commit": "2026-08-20T05:10:15Z",
                 "owner": "future-agi",
                 "repo": "agent-learning-kit",
                 "stars": 117
@@ -194,7 +194,7 @@
                 "last_commit": "2026-08-17T05:07:26Z",
                 "owner": "FareedKhan-dev",
                 "repo": "train-llm-from-scratch",
-                "stars": 9214
+                "stars": 9224
               }
             },
             {
@@ -209,7 +209,7 @@
                 "last_commit": "2026-08-17T13:10:16Z",
                 "owner": "rfordatascience",
                 "repo": "tidytuesday",
-                "stars": 8348
+                "stars": 8351
               }
             },
             {
@@ -306,7 +306,7 @@
                 "last_commit": "2025-05-13T02:19:48Z",
                 "owner": "ossu",
                 "repo": "data-science",
-                "stars": 21896
+                "stars": 21898
               }
             },
             {
@@ -361,10 +361,10 @@
                 "archived": false,
                 "id": 154739597,
                 "language": "Python",
-                "last_commit": "2026-08-19T10:12:11Z",
+                "last_commit": "2026-08-20T04:02:41Z",
                 "owner": "jax-ml",
                 "repo": "jax",
-                "stars": 36178
+                "stars": 36181
               }
             },
             {
@@ -376,10 +376,10 @@
                 "archived": false,
                 "id": 16587283,
                 "language": "C++",
-                "last_commit": "2026-08-19T04:06:51Z",
+                "last_commit": "2026-08-20T05:50:16Z",
                 "owner": "dmlc",
                 "repo": "xgboost",
-                "stars": 28669
+                "stars": 28673
               }
             },
             {
@@ -391,10 +391,10 @@
                 "archived": false,
                 "id": 64991887,
                 "language": "C++",
-                "last_commit": "2026-08-19T02:59:23Z",
+                "last_commit": "2026-08-20T03:01:51Z",
                 "owner": "lightgbm-org",
                 "repo": "LightGBM",
-                "stars": 18699
+                "stars": 18700
               }
             },
             {
@@ -421,10 +421,10 @@
                 "archived": false,
                 "id": 97556265,
                 "language": "C++",
-                "last_commit": "2026-08-19T04:09:33Z",
+                "last_commit": "2026-08-19T14:21:53Z",
                 "owner": "catboost",
                 "repo": "catboost",
-                "stars": 9069
+                "stars": 9068
               }
             },
             {
@@ -469,7 +469,7 @@
                 "last_commit": "2026-08-17T10:42:56Z",
                 "owner": "uber",
                 "repo": "causalml",
-                "stars": 5961
+                "stars": 5963
               }
             },
             {
@@ -484,7 +484,7 @@
                 "last_commit": "2026-08-09T13:37:54Z",
                 "owner": "mlpack",
                 "repo": "mlpack",
-                "stars": 5700
+                "stars": 5701
               }
             },
             {
@@ -496,7 +496,7 @@
                 "archived": false,
                 "id": 152616802,
                 "language": "Python",
-                "last_commit": "2026-08-19T07:57:46Z",
+                "last_commit": "2026-08-20T05:19:21Z",
                 "owner": "NVIDIA",
                 "repo": "cuml",
                 "stars": 5255
@@ -514,7 +514,7 @@
                 "last_commit": "2026-08-05T14:38:28Z",
                 "owner": "rasbt",
                 "repo": "mlxtend",
-                "stars": 5165
+                "stars": 5166
               }
             },
             {
@@ -559,7 +559,7 @@
                 "last_commit": "2024-11-19T02:09:54Z",
                 "owner": "unslothai",
                 "repo": "hyperlearn",
-                "stars": 2496
+                "stars": 2499
               }
             },
             {
@@ -865,10 +865,10 @@
                     "archived": false,
                     "id": 65600975,
                     "language": "Python",
-                    "last_commit": "2026-08-19T12:12:11Z",
+                    "last_commit": "2026-08-20T05:49:02Z",
                     "owner": "pytorch",
                     "repo": "pytorch",
-                    "stars": 102479
+                    "stars": 102492
                   }
                 },
                 {
@@ -880,10 +880,10 @@
                     "archived": false,
                     "id": 535360445,
                     "language": "Python",
-                    "last_commit": "2026-08-19T12:13:15Z",
+                    "last_commit": "2026-08-20T04:03:52Z",
                     "owner": "ultralytics",
                     "repo": "ultralytics",
-                    "stars": 60760
+                    "stars": 60780
                   }
                 },
                 {
@@ -898,7 +898,7 @@
                     "last_commit": "2026-08-16T10:37:11Z",
                     "owner": "ultralytics",
                     "repo": "yolov5",
-                    "stars": 57904
+                    "stars": 57907
                   }
                 },
                 {
@@ -925,7 +925,7 @@
                     "archived": false,
                     "id": 73328905,
                     "language": "Python",
-                    "last_commit": "2026-08-19T11:40:42Z",
+                    "last_commit": "2026-08-19T21:02:42Z",
                     "owner": "pytorch",
                     "repo": "vision",
                     "stars": 17872
@@ -988,7 +988,7 @@
                     "last_commit": "2026-08-17T23:45:17Z",
                     "owner": "pytorch",
                     "repo": "ignite",
-                    "stars": 4775
+                    "stars": 4776
                   }
                 },
                 {
@@ -1045,7 +1045,7 @@
                     "archived": false,
                     "id": 90321822,
                     "language": "Python",
-                    "last_commit": "2026-08-19T11:40:34Z",
+                    "last_commit": "2026-08-19T16:38:41Z",
                     "owner": "pytorch",
                     "repo": "audio",
                     "stars": 2925
@@ -1127,10 +1127,10 @@
                     "archived": false,
                     "id": 45717250,
                     "language": "C++",
-                    "last_commit": "2026-08-19T12:24:16Z",
+                    "last_commit": "2026-08-20T05:50:37Z",
                     "owner": "tensorflow",
                     "repo": "tensorflow",
-                    "stars": 197061
+                    "stars": 197071
                   }
                 },
                 {
@@ -1160,7 +1160,7 @@
                     "last_commit": "2026-07-07T22:31:42Z",
                     "owner": "google-deepmind",
                     "repo": "sonnet",
-                    "stars": 9958
+                    "stars": 9960
                   }
                 },
                 {
@@ -1280,7 +1280,7 @@
                     "last_commit": "2021-06-26T15:49:57Z",
                     "owner": "tensorflow",
                     "repo": "fold",
-                    "stars": 1816
+                    "stars": 1815
                   }
                 },
                 {
@@ -1322,7 +1322,7 @@
                     "archived": false,
                     "id": 128835623,
                     "language": "C++",
-                    "last_commit": "2026-08-13T12:10:20Z",
+                    "last_commit": "2026-08-19T15:49:20Z",
                     "owner": "ROCm",
                     "repo": "tensorflow-upstream",
                     "stars": 704
@@ -1519,7 +1519,7 @@
                     "last_commit": "2026-08-18T12:11:10Z",
                     "owner": "lutzroeder",
                     "repo": "netron",
-                    "stars": 33367
+                    "stars": 33369
                   }
                 },
                 {
@@ -1699,7 +1699,7 @@
                 "archived": false,
                 "id": 1183621453,
                 "language": null,
-                "last_commit": "2026-08-19T07:21:13Z",
+                "last_commit": "2026-08-19T17:33:13Z",
                 "owner": "artakulov",
                 "repo": "us-water-quality-data",
                 "stars": 4
@@ -1804,7 +1804,7 @@
                 "archived": false,
                 "id": 1337783514,
                 "language": "Python",
-                "last_commit": "2026-08-19T01:20:40Z",
+                "last_commit": "2026-08-20T04:22:41Z",
                 "owner": "AdamDudley",
                 "repo": "hddhunt-price-index",
                 "stars": 0
@@ -1833,7 +1833,7 @@
             "last_commit": "2026-08-16T13:31:43Z",
             "owner": "vinta",
             "repo": "awesome-python",
-            "stars": 314851
+            "stars": 315015
           }
         },
         {
@@ -1848,7 +1848,7 @@
             "last_commit": "2026-08-04T19:54:53Z",
             "owner": "awesomedata",
             "repo": "awesome-public-datasets",
-            "stars": 78143
+            "stars": 78153
           }
         },
         {
@@ -1863,7 +1863,7 @@
             "last_commit": "2026-08-11T21:49:59Z",
             "owner": "josephmisiti",
             "repo": "awesome-machine-learning",
-            "stars": 74070
+            "stars": 74077
           }
         },
         {
@@ -1878,7 +1878,7 @@
             "last_commit": "2024-06-02T22:46:41Z",
             "owner": "bayandin",
             "repo": "awesome-awesomeness",
-            "stars": 33609
+            "stars": 33610
           }
         },
         {
@@ -1893,7 +1893,7 @@
             "last_commit": "2024-03-20T13:52:34Z",
             "owner": "donnemartin",
             "repo": "data-science-ipython-notebooks",
-            "stars": 29306
+            "stars": 29308
           }
         },
         {
@@ -1908,7 +1908,7 @@
             "last_commit": "2024-06-11T04:49:29Z",
             "owner": "ZuzooVn",
             "repo": "machine-learning-for-software-engineers",
-            "stars": 28865
+            "stars": 28864
           }
         },
         {
@@ -1923,7 +1923,7 @@
             "last_commit": "2024-06-12T08:11:59Z",
             "owner": "ujjwalkarn",
             "repo": "Machine-Learning-Tutorials",
-            "stars": 18109
+            "stars": 18112
           }
         },
         {
@@ -1953,7 +1953,7 @@
             "last_commit": "2026-08-18T07:04:22Z",
             "owner": "alexeygrigorev",
             "repo": "data-science-interviews",
-            "stars": 10115
+            "stars": 10117
           }
         },
         {
@@ -2043,7 +2043,7 @@
             "last_commit": "2023-11-11T19:46:32Z",
             "owner": "veb-101",
             "repo": "Data-Science-Projects",
-            "stars": 2760
+            "stars": 2761
           }
         },
         {
@@ -2093,21 +2093,6 @@
         },
         {
           "node_type": "item",
-          "title": "Awesome Fraud Detection Papers",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "id": 188821801,
-            "language": "Python",
-            "last_commit": "2026-01-05T12:28:59Z",
-            "owner": "benedekrozemberczki",
-            "repo": "awesome-fraud-detection-papers",
-            "stars": 1824
-          }
-        },
-        {
-          "node_type": "item",
           "title": "Awesome Data Analysis",
           "description": "A curated list of data analysis tools, libraries and resources.",
           "children": [],
@@ -2118,7 +2103,22 @@
             "last_commit": "2026-08-09T10:44:21Z",
             "owner": "PavelGrigoryevDS",
             "repo": "awesome-data-analysis",
-            "stars": 1822
+            "stars": 1834
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome Fraud Detection Papers",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 188821801,
+            "language": "Python",
+            "last_commit": "2026-01-05T12:28:59Z",
+            "owner": "benedekrozemberczki",
+            "repo": "awesome-fraud-detection-papers",
+            "stars": 1825
           }
         },
         {
@@ -2246,7 +2246,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-19T12:25:13.953Z",
+    "last_updated": "2026-08-20T05:51:16.892Z",
     "original_repository": "academic/awesome-datascience",
     "original_repository_id": 21515044,
     "original_repository_sha": "936a76248cbe5fd8be422dc655b62ea5b570769a",
