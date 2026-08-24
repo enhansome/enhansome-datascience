@@ -179,7 +179,7 @@
                 "last_commit": "2023-08-31T17:49:30Z",
                 "owner": "khangich",
                 "repo": "machine-learning-interview",
-                "stars": 12789
+                "stars": 12792
               }
             },
             {
@@ -194,7 +194,7 @@
                 "last_commit": "2026-08-17T05:07:26Z",
                 "owner": "FareedKhan-dev",
                 "repo": "train-llm-from-scratch",
-                "stars": 9378
+                "stars": 9389
               }
             },
             {
@@ -206,7 +206,7 @@
                 "archived": false,
                 "id": 125241352,
                 "language": "HTML",
-                "last_commit": "2026-08-17T13:10:16Z",
+                "last_commit": "2026-08-24T13:16:39Z",
                 "owner": "rfordatascience",
                 "repo": "tidytuesday",
                 "stars": 8355
@@ -291,7 +291,7 @@
                 "last_commit": "2025-09-12T14:59:30Z",
                 "owner": "AMAI-GmbH",
                 "repo": "AI-Expert-Roadmap",
-                "stars": 31219
+                "stars": 31220
               }
             },
             {
@@ -306,7 +306,7 @@
                 "last_commit": "2025-05-13T02:19:48Z",
                 "owner": "ossu",
                 "repo": "data-science",
-                "stars": 21911
+                "stars": 21910
               }
             },
             {
@@ -343,6 +343,50 @@
           "description": null,
           "node_type": "group",
           "title": "Free Courses"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Data Science Specialization",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 16099249,
+                "language": "HTML",
+                "last_commit": "2021-03-30T06:51:57Z",
+                "owner": "DataScienceSpecialization",
+                "repo": "courses",
+                "stars": 4152
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "MOOC's"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "A list of colleges and universities offering degrees in data science.",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 37947076,
+                "language": "Python",
+                "last_commit": "2021-01-24T21:22:19Z",
+                "owner": "ryanswanstrom",
+                "repo": "awesome-datascience-colleges",
+                "stars": 160
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Colleges"
         }
       ],
       "title": "Training Resources"
@@ -354,6 +398,28 @@
           "children": [
             {
               "node_type": "item",
+              "title": "datacompy",
+              "description": "DataComPy is a package to compare two Pandas DataFrames.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 126487536,
+                "language": "Python",
+                "last_commit": "2026-08-21T17:48:24Z",
+                "owner": "capitalone",
+                "repo": "datacompy",
+                "stars": 658
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Comparison"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "JAX",
               "description": null,
               "children": [],
@@ -361,10 +427,10 @@
                 "archived": false,
                 "id": 154739597,
                 "language": "Python",
-                "last_commit": "2026-08-24T05:35:45Z",
+                "last_commit": "2026-08-24T13:16:09Z",
                 "owner": "jax-ml",
                 "repo": "jax",
-                "stars": 36207
+                "stars": 36209
               }
             },
             {
@@ -376,10 +442,10 @@
                 "archived": false,
                 "id": 16587283,
                 "language": "C++",
-                "last_commit": "2026-08-23T08:25:40Z",
+                "last_commit": "2026-08-24T08:45:22Z",
                 "owner": "dmlc",
                 "repo": "xgboost",
-                "stars": 28689
+                "stars": 28690
               }
             },
             {
@@ -409,7 +475,7 @@
                 "last_commit": "2026-08-11T03:03:36Z",
                 "owner": "davisking",
                 "repo": "dlib",
-                "stars": 14433
+                "stars": 14432
               }
             },
             {
@@ -421,7 +487,7 @@
                 "archived": false,
                 "id": 97556265,
                 "language": "C++",
-                "last_commit": "2026-08-23T18:03:05Z",
+                "last_commit": "2026-08-24T13:47:47Z",
                 "owner": "catboost",
                 "repo": "catboost",
                 "stars": 9075
@@ -469,7 +535,7 @@
                 "last_commit": "2026-08-20T15:25:36Z",
                 "owner": "uber",
                 "repo": "causalml",
-                "stars": 5966
+                "stars": 5967
               }
             },
             {
@@ -499,7 +565,7 @@
                 "last_commit": "2026-08-22T15:05:11Z",
                 "owner": "NVIDIA",
                 "repo": "cuml",
-                "stars": 5259
+                "stars": 5260
               }
             },
             {
@@ -514,7 +580,7 @@
                 "last_commit": "2026-08-05T14:38:28Z",
                 "owner": "rasbt",
                 "repo": "mlxtend",
-                "stars": 5165
+                "stars": 5166
               }
             },
             {
@@ -544,7 +610,7 @@
                 "last_commit": "2023-08-28T05:14:10Z",
                 "owner": "aksnzhy",
                 "repo": "xlearn",
-                "stars": 3091
+                "stars": 3090
               }
             },
             {
@@ -669,21 +735,6 @@
             },
             {
               "node_type": "item",
-              "title": "PerpetualBooster",
-              "description": null,
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "id": 803330098,
-                "language": "Rust",
-                "last_commit": "2026-04-02T10:41:37Z",
-                "owner": "perpetual-ml",
-                "repo": "perpetual",
-                "stars": 707
-              }
-            },
-            {
-              "node_type": "item",
               "title": "seqlearn",
               "description": null,
               "children": [],
@@ -694,6 +745,21 @@
                 "last_commit": "2023-03-24T08:01:57Z",
                 "owner": "larsmans",
                 "repo": "seqlearn",
+                "stars": 706
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "PerpetualBooster",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 803330098,
+                "language": "Rust",
+                "last_commit": "2026-04-02T10:41:37Z",
+                "owner": "perpetual-ml",
+                "repo": "perpetual",
                 "stars": 706
               }
             },
@@ -865,10 +931,10 @@
                     "archived": false,
                     "id": 65600975,
                     "language": "Python",
-                    "last_commit": "2026-08-24T05:50:51Z",
+                    "last_commit": "2026-08-24T13:44:49Z",
                     "owner": "pytorch",
                     "repo": "pytorch",
-                    "stars": 102564
+                    "stars": 102573
                   }
                 },
                 {
@@ -880,10 +946,10 @@
                     "archived": false,
                     "id": 535360445,
                     "language": "Python",
-                    "last_commit": "2026-08-24T04:03:52Z",
+                    "last_commit": "2026-08-24T13:41:24Z",
                     "owner": "ultralytics",
                     "repo": "ultralytics",
-                    "stars": 60907
+                    "stars": 60916
                   }
                 },
                 {
@@ -895,7 +961,7 @@
                     "archived": false,
                     "id": 264818686,
                     "language": "Python",
-                    "last_commit": "2026-08-20T22:29:40Z",
+                    "last_commit": "2026-08-24T08:38:22Z",
                     "owner": "ultralytics",
                     "repo": "yolov5",
                     "stars": 57921
@@ -913,7 +979,7 @@
                     "last_commit": "2026-08-17T23:02:36Z",
                     "owner": "pyg-team",
                     "repo": "pytorch_geometric",
-                    "stars": 24028
+                    "stars": 24030
                   }
                 },
                 {
@@ -925,10 +991,10 @@
                     "archived": false,
                     "id": 73328905,
                     "language": "Python",
-                    "last_commit": "2026-08-23T11:39:01Z",
+                    "last_commit": "2026-08-24T11:42:14Z",
                     "owner": "pytorch",
                     "repo": "vision",
-                    "stars": 17876
+                    "stars": 17879
                   }
                 },
                 {
@@ -1045,10 +1111,10 @@
                     "archived": false,
                     "id": 90321822,
                     "language": "Python",
-                    "last_commit": "2026-08-23T11:38:49Z",
+                    "last_commit": "2026-08-24T11:42:04Z",
                     "owner": "pytorch",
                     "repo": "audio",
-                    "stars": 2926
+                    "stars": 2927
                   }
                 },
                 {
@@ -1127,10 +1193,10 @@
                     "archived": false,
                     "id": 45717250,
                     "language": "C++",
-                    "last_commit": "2026-08-24T04:55:21Z",
+                    "last_commit": "2026-08-24T13:50:32Z",
                     "owner": "tensorflow",
                     "repo": "tensorflow",
-                    "stars": 197378
+                    "stars": 197382
                   }
                 },
                 {
@@ -1145,7 +1211,7 @@
                     "last_commit": "2026-08-17T21:52:31Z",
                     "owner": "ludwig-ai",
                     "repo": "ludwig",
-                    "stars": 11746
+                    "stars": 11747
                   }
                 },
                 {
@@ -1310,7 +1376,7 @@
                     "last_commit": "2024-11-18T15:00:19Z",
                     "owner": "itdxer",
                     "repo": "neupy",
-                    "stars": 736
+                    "stars": 735
                   }
                 },
                 {
@@ -1516,10 +1582,10 @@
                     "archived": false,
                     "id": 1198539,
                     "language": "JavaScript",
-                    "last_commit": "2026-08-24T02:37:04Z",
+                    "last_commit": "2026-08-24T12:22:40Z",
                     "owner": "lutzroeder",
                     "repo": "netron",
-                    "stars": 33393
+                    "stars": 33395
                   }
                 },
                 {
@@ -1549,7 +1615,7 @@
                     "last_commit": "2026-04-20T13:02:16Z",
                     "owner": "vizzuhq",
                     "repo": "vizzu-lib",
-                    "stars": 2022
+                    "stars": 2023
                   }
                 },
                 {
@@ -1591,6 +1657,1168 @@
           "description": null,
           "node_type": "group",
           "title": "Deep Learning Packages"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "The Data Science Lifecycle Process",
+              "description": "The Data Science Lifecycle Process is a process for taking data science teams from Idea to Value repeatedly and sustainably. The process is documented in this repo",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 258541390,
+                "language": null,
+                "last_commit": "2021-05-04T13:34:56Z",
+                "owner": "dslp",
+                "repo": "dslp",
+                "stars": 528
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Data Science Lifecycle Template Repo",
+              "description": "Template repository for data science lifecycle project",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 224039212,
+                "language": "Python",
+                "last_commit": "2020-07-02T19:14:51Z",
+                "owner": "dslp",
+                "repo": "dslp-repo-template",
+                "stars": 204
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "TabGAN",
+              "description": "Synthetic tabular data generation using GANs, Diffusion Models, and LLMs with adversarial filtering and privacy metrics.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 248953490,
+                "language": "Python",
+                "last_commit": "2026-03-29T14:52:07Z",
+                "owner": "Diyago",
+                "repo": "Tabular-data-generation",
+                "stars": 574
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "RexMex",
+              "description": "A general purpose recommender metrics library for fair evaluation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 420948708,
+                "language": "Python",
+                "last_commit": "2023-08-22T09:22:20Z",
+                "owner": "AstraZeneca",
+                "repo": "rexmex",
+                "stars": 277
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ChemicalX",
+              "description": "A PyTorch based deep learning library for drug pair scoring.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 435549806,
+                "language": "Python",
+                "last_commit": "2023-09-11T08:01:43Z",
+                "owner": "AstraZeneca",
+                "repo": "chemicalx",
+                "stars": 782
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "FileShot.io",
+              "description": "Secure zero-knowledge encrypted file sharing (AES-256-GCM in-browser). No account required, MIT licensed, self-hostable, optional link expiry.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1100916010,
+                "language": "HTML",
+                "last_commit": "2026-06-03T19:39:42Z",
+                "owner": "FileShot",
+                "repo": "FileShotZKE",
+                "stars": 30
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "PyTorch Geometric Temporal",
+              "description": "Representation learning on dynamic graphs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 275276531,
+                "language": "Python",
+                "last_commit": "2026-05-30T17:29:01Z",
+                "owner": "benedekrozemberczki",
+                "repo": "pytorch_geometric_temporal",
+                "stars": 2992
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Little Ball of Fur",
+              "description": "A graph sampling library for NetworkX with a Scikit-Learn like API.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 260969405,
+                "language": "Python",
+                "last_commit": "2025-12-20T17:20:57Z",
+                "owner": "benedekrozemberczki",
+                "repo": "littleballoffur",
+                "stars": 714
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Karate Club",
+              "description": "An unsupervised machine learning extension library for NetworkX with a Scikit-Learn like API.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 226155948,
+                "language": "Python",
+                "last_commit": "2024-07-17T19:00:35Z",
+                "owner": "benedekrozemberczki",
+                "repo": "karateclub",
+                "stars": 2286
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ML Workspace",
+              "description": "All-in-one web-based IDE for machine learning and data science. The workspace is deployed as a Docker container and is preloaded with a variety of popular data science libraries (e.g., Tensorflow, PyTorch) and dev tools (e.g., Jupyter, VS Code)",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 188880197,
+                "language": "Jupyter Notebook",
+                "last_commit": "2024-07-26T07:39:39Z",
+                "owner": "ml-tooling",
+                "repo": "ml-workspace",
+                "stars": 3544
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "xonsh shell",
+              "description": "A Python-powered shell that enables integration, management and orchestration of data science libraries mostly written in Python, allowing you to build pipelines, code and command-based workflows. It can also be used as a kernel for Jupyter Notebook.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 29620400,
+                "language": "Python",
+                "last_commit": "2026-08-23T15:43:08Z",
+                "owner": "xonsh",
+                "repo": "xonsh",
+                "stars": 9616
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "steppy",
+              "description": "Lightweight, Python library for fast and reproducible machine learning experimentation. Introduces very simple interface that enables clean machine learning pipeline design.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 117526101,
+                "language": "Python",
+                "last_commit": "2018-11-23T09:48:51Z",
+                "owner": "minerva-ml",
+                "repo": "steppy",
+                "stars": 136
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "steppy-toolkit",
+              "description": "Curated collection of the neural networks, transformers and models that make your machine learning work faster and more effective.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 131217003,
+                "language": "Python",
+                "last_commit": "2018-11-22T17:39:41Z",
+                "owner": "minerva-ml",
+                "repo": "steppy-toolkit",
+                "stars": 23
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Pandas GUI",
+              "description": "Pandas GUI",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 191481588,
+                "language": "Python",
+                "last_commit": "2025-05-30T04:06:03Z",
+                "owner": "adamerose",
+                "repo": "PandasGUI",
+                "stars": 3257
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "NuriStat",
+              "description": "Free open-source SPSS alternative — menu-driven desktop statistics (t-tests, ANOVA, regression, survival analysis, ROC) with SPSS .sav import/export",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1242230946,
+                "language": "Python",
+                "last_commit": "2026-07-09T15:02:57Z",
+                "owner": "baramgay",
+                "repo": "stat",
+                "stars": 2
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Polars",
+              "description": "Fast DataFrame library for Rust and Python, designed as a faster alternative to Pandas",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 263727855,
+                "language": "Rust",
+                "last_commit": "2026-08-24T13:50:33Z",
+                "owner": "pola-rs",
+                "repo": "polars",
+                "stars": 39468
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Hydrosphere Mist",
+              "description": "a service for exposing Apache Spark analytics jobs and machine learning models as realtime, batch or reactive web services.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 49703422,
+                "language": "Scala",
+                "last_commit": "2026-04-13T17:08:02Z",
+                "owner": "Hydrospheredata",
+                "repo": "mist",
+                "stars": 326
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Nervana's python based Deep Learning Framework",
+              "description": "Intel® Nervana™ reference deep learning framework committed to best performance on all hardware.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 25280332,
+                "language": "Python",
+                "last_commit": "2020-12-23T01:21:42Z",
+                "owner": "NervanaSystems",
+                "repo": "neon",
+                "stars": 3861
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Skale",
+              "description": "High performance distributed data processing in NodeJS",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 54407604,
+                "language": "JavaScript",
+                "last_commit": "2021-05-29T06:32:42Z",
+                "owner": "skale-me",
+                "repo": "skale",
+                "stars": 397
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Intel framework",
+              "description": "Intel® Deep Learning Framework",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 30708914,
+                "language": "C++",
+                "last_commit": "2016-06-16T09:55:11Z",
+                "owner": "intel",
+                "repo": "idlf",
+                "stars": 312
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Datawrapper",
+              "description": "An open source data visualization platform helping everyone to create simple, correct and embeddable charts. Also at github.com",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 4922017,
+                "language": "TypeScript",
+                "last_commit": "2025-03-30T20:06:30Z",
+                "owner": "datawrapper",
+                "repo": "datawrapper",
+                "stars": 1453
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "FunASR",
+              "description": "Industrial-grade speech recognition toolkit supporting 50+ languages with built-in VAD, punctuation, speaker diarization, and emotion detection. OpenAI-compatible API server included.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 569959091,
+                "language": "Python",
+                "last_commit": "2026-08-21T04:17:05Z",
+                "owner": "modelscope",
+                "repo": "FunASR",
+                "stars": 19994
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "IJulia",
+              "description": "a Julia-language backend combined with the Jupyter interactive environment",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 8585955,
+                "language": "Julia",
+                "last_commit": "2026-06-23T05:55:43Z",
+                "owner": "JuliaLang",
+                "repo": "IJulia.jl",
+                "stars": 2896
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Featuretools",
+              "description": "An open source framework for automated feature engineering written in python",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 102908804,
+                "language": "Python",
+                "last_commit": "2026-07-27T13:04:38Z",
+                "owner": "alteryx",
+                "repo": "featuretools",
+                "stars": 7665
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Optimus",
+              "description": "Cleansing, pre-processing, feature engineering, exploratory data analysis and easy ML with PySpark backend.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 97071697,
+                "language": "Python",
+                "last_commit": "2024-12-02T14:09:25Z",
+                "owner": "hi-primus",
+                "repo": "optimus",
+                "stars": 1536
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Albumentations",
+              "description": "А fast and framework agnostic image augmentation library that implements a diverse set of augmentation techniques. Supports classification, segmentation, and detection out of the box. Was used to win a number of Deep Learning competitions at Kaggle, Topcoder and those that were a part of the CVPR workshops.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 136265021,
+                "language": "Python",
+                "last_commit": "2025-06-25T23:21:43Z",
+                "owner": "albumentations-team",
+                "repo": "albumentations",
+                "stars": 15315
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "DVC",
+              "description": "An open-source data science version control system. It helps track, organize and make data science projects reproducible. In its very basic scenario it helps version control and share large data and model files.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 83878269,
+                "language": "Python",
+                "last_commit": "2026-08-24T02:03:27Z",
+                "owner": "treeverse",
+                "repo": "dvc",
+                "stars": 15838
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Lambdo",
+              "description": "is a workflow engine that significantly simplifies data analysis by combining in one analysis pipeline (i) feature engineering and machine learning (ii) model training and prediction (iii) table population and column evaluation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 141007589,
+                "language": "Python",
+                "last_commit": "2021-01-01T11:11:27Z",
+                "owner": "asavinov",
+                "repo": "lambdo",
+                "stars": 26
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Feast",
+              "description": "A feature store for the management, discovery, and access of machine learning features. Feast provides a consistent view of feature data for both model training and model serving.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 161133770,
+                "language": "Python",
+                "last_commit": "2026-08-22T17:50:29Z",
+                "owner": "feast-dev",
+                "repo": "feast",
+                "stars": 7230
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Polyaxon",
+              "description": "A platform for reproducible and scalable machine learning and deep learning.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 77383688,
+                "language": "MDX",
+                "last_commit": "2026-08-22T17:32:35Z",
+                "owner": "polyaxon",
+                "repo": "polyaxon",
+                "stars": 3722
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Trains",
+              "description": "Auto-Magical Experiment Manager, Version Control & DevOps for AI",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 191126383,
+                "language": "Python",
+                "last_commit": "2026-08-23T11:05:36Z",
+                "owner": "clearml",
+                "repo": "clearml",
+                "stars": 6837
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Hopsworks",
+              "description": "Open-source data-intensive machine learning platform with a feature store. Ingest and manage features for both online (MySQL Cluster) and offline (Apache Hive) access, train and serve models at scale.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 142410331,
+                "language": "Java",
+                "last_commit": "2025-02-10T05:53:39Z",
+                "owner": "logicalclocks",
+                "repo": "hopsworks",
+                "stars": 1303
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "MindsDB",
+              "description": "MindsDB is an Explainable AutoML framework for developers. With MindsDB you can build, train and use state of the art ML models in as simple as one line of code.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 143328315,
+                "language": "Makefile",
+                "last_commit": "2026-08-21T23:50:38Z",
+                "owner": "mindsdb",
+                "repo": "mindshub",
+                "stars": 39640
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Lightwood",
+              "description": "A Pytorch based framework that breaks down machine learning problems into smaller blocks that can be glued together seamlessly with an objective to build predictive models with one line of code.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 187716171,
+                "language": "Python",
+                "last_commit": "2026-02-21T17:52:34Z",
+                "owner": "mindsdb",
+                "repo": "lightwood",
+                "stars": 509
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "AWS Data Wrangler",
+              "description": "An open-source Python package that extends the power of Pandas library to AWS connecting DataFrames and AWS data related services (Amazon Redshift, AWS Glue, Amazon Athena, Amazon EMR, etc).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 172615836,
+                "language": "Python",
+                "last_commit": "2026-08-22T08:12:10Z",
+                "owner": "aws",
+                "repo": "aws-sdk-pandas",
+                "stars": 4117
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CML",
+              "description": "An open source toolkit for using continuous integration in data science projects. Automatically train and test models in production-like environments with GitHub Actions & GitLab CI, and autogenerate visual reports on pull/merge requests.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 243197559,
+                "language": "JavaScript",
+                "last_commit": "2025-06-02T04:40:57Z",
+                "owner": "iterative",
+                "repo": "cml",
+                "stars": 4187
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "DuckDB",
+              "description": "An in-process SQL OLAP database management system",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 138754790,
+                "language": "C++",
+                "last_commit": "2026-08-24T13:05:11Z",
+                "owner": "duckdb",
+                "repo": "duckdb",
+                "stars": 40563
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Grid Studio",
+              "description": "Grid studio is a web-based spreadsheet application with full integration of the Python programming language.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 198441611,
+                "language": "JavaScript",
+                "last_commit": "2023-11-07T21:11:21Z",
+                "owner": "ricklamers",
+                "repo": "gridstudio",
+                "stars": 8817
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Python Data Science Handbook",
+              "description": "Python Data Science Handbook: full text in Jupyter Notebooks",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 65388917,
+                "language": "Jupyter Notebook",
+                "last_commit": "2024-06-26T19:17:33Z",
+                "owner": "jakevdp",
+                "repo": "PythonDataScienceHandbook",
+                "stars": 49688
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Shapley",
+              "description": "A data-driven framework to quantify the value of classifiers in a machine learning ensemble.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 237226207,
+                "language": "Python",
+                "last_commit": "2026-01-01T14:34:38Z",
+                "owner": "benedekrozemberczki",
+                "repo": "shapley",
+                "stars": 227
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Chaos Genius",
+              "description": "ML powered analytics engine for outlier/anomaly detection and root cause analysis",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 371296634,
+                "language": "Python",
+                "last_commit": "2024-09-12T07:46:44Z",
+                "owner": "chaos-genius",
+                "repo": "chaos_genius",
+                "stars": 778
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Towhee",
+              "description": "A Python library that helps you encode your unstructured data into embeddings.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 385532537,
+                "language": "Python",
+                "last_commit": "2024-10-18T00:01:12Z",
+                "owner": "towhee-io",
+                "repo": "towhee",
+                "stars": 3454
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "LineaPy",
+              "description": "Ever been frustrated with cleaning up long, messy Jupyter notebooks? With LineaPy, an open source Python library, it takes as little as two lines of code to transform messy development code into production pipelines.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 390514853,
+                "language": "Jupyter Notebook",
+                "last_commit": "2025-02-22T22:58:04Z",
+                "owner": "LineaLabs",
+                "repo": "lineapy",
+                "stars": 671
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "envd",
+              "description": "🏕️ machine learning development environment for data science and AI/ML engineering teams",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 480303698,
+                "language": "Go",
+                "last_commit": "2026-07-25T03:58:33Z",
+                "owner": "tensorchord",
+                "repo": "envd",
+                "stars": 2226
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "MLEM",
+              "description": "🐶 Version and deploy your ML models following GitOps principles",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 411977306,
+                "language": "Python",
+                "last_commit": "2023-09-13T18:27:00Z",
+                "owner": "iterative",
+                "repo": "mlem",
+                "stars": 718
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "cleanlab",
+              "description": "Python library for data-centric AI and automatically detecting various issues in ML datasets",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 132975485,
+                "language": "Python",
+                "last_commit": "2026-01-13T17:39:04Z",
+                "owner": "cleanlab",
+                "repo": "cleanlab",
+                "stars": 11632
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "AutoGluon",
+              "description": "AutoML to easily produce accurate predictions for image, text, tabular, time-series, and multi-modal data",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 199509705,
+                "language": "Python",
+                "last_commit": "2026-08-24T13:44:37Z",
+                "owner": "autogluon",
+                "repo": "autogluon",
+                "stars": 10612
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Comet",
+              "description": "An MLOps platform with experiment tracking, model production management, a model registry, and full data lineage to support your ML workflow from training straight through to production.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 158587515,
+                "language": "Jupyter Notebook",
+                "last_commit": "2026-08-12T16:26:17Z",
+                "owner": "comet-ml",
+                "repo": "comet-examples",
+                "stars": 176
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Opik",
+              "description": "Evaluate, test, and ship LLM applications across your dev and production lifecycles.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 638951438,
+                "language": "Python",
+                "last_commit": "2026-08-24T13:47:46Z",
+                "owner": "comet-ml",
+                "repo": "opik",
+                "stars": 21568
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "teeplot",
+              "description": "Workflow tool to automatically organize data visualization output",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 366149949,
+                "language": "Python",
+                "last_commit": "2026-04-21T17:50:08Z",
+                "owner": "mmore500",
+                "repo": "teeplot",
+                "stars": 13
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Streamlit",
+              "description": "App framework for Machine Learning and Data Science projects",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 204086862,
+                "language": "Python",
+                "last_commit": "2026-08-24T13:49:10Z",
+                "owner": "streamlit",
+                "repo": "streamlit",
+                "stars": 45602
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Gradio",
+              "description": "Create customizable UI components around machine learning models",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 162405963,
+                "language": "Python",
+                "last_commit": "2026-08-24T11:14:07Z",
+                "owner": "gradio-app",
+                "repo": "gradio",
+                "stars": 43412
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Weights & Biases",
+              "description": "Experiment tracking, dataset versioning, and model management",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 86031674,
+                "language": "Python",
+                "last_commit": "2026-08-23T19:48:35Z",
+                "owner": "wandb",
+                "repo": "wandb",
+                "stars": 11238
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "DVC",
+              "description": "Open-source version control system for machine learning projects",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 83878269,
+                "language": "Python",
+                "last_commit": "2026-08-24T02:03:27Z",
+                "owner": "treeverse",
+                "repo": "dvc",
+                "stars": 15838
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Optuna",
+              "description": "Automatic hyperparameter optimization software framework",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 122299416,
+                "language": "Python",
+                "last_commit": "2026-08-21T08:05:33Z",
+                "owner": "optuna",
+                "repo": "optuna",
+                "stars": 14698
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Ray Tune",
+              "description": "Scalable hyperparameter tuning library",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 71932349,
+                "language": "Python",
+                "last_commit": "2026-08-24T12:25:44Z",
+                "owner": "ray-project",
+                "repo": "ray",
+                "stars": 43597
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Apache Airflow",
+              "description": "Platform to programmatically author, schedule, and monitor workflows",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 33884891,
+                "language": "Python",
+                "last_commit": "2026-08-24T13:36:59Z",
+                "owner": "apache",
+                "repo": "airflow",
+                "stars": 46596
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Prefect",
+              "description": "Workflow management system for modern data stacks",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 139199684,
+                "language": "Python",
+                "last_commit": "2026-08-24T13:16:44Z",
+                "owner": "PrefectHQ",
+                "repo": "prefect",
+                "stars": 23666
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kedro",
+              "description": "Open-source Python framework for creating reproducible, maintainable data science code",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 182067506,
+                "language": "Python",
+                "last_commit": "2026-08-24T13:24:24Z",
+                "owner": "kedro-org",
+                "repo": "kedro",
+                "stars": 10967
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Hamilton",
+              "description": "Lightweight library to author and manage reliable data transformations",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 605682921,
+                "language": "Jupyter Notebook",
+                "last_commit": "2026-08-19T04:38:48Z",
+                "owner": "apache",
+                "repo": "hamilton",
+                "stars": 2574
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "SHAP",
+              "description": "Game theoretic approach to explain the output of any machine learning model",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 74505259,
+                "language": "Jupyter Notebook",
+                "last_commit": "2026-08-11T21:52:04Z",
+                "owner": "shap",
+                "repo": "shap",
+                "stars": 25699
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "InterpretML",
+              "description": "InterpretML implements the Explainable Boosting Machine (EBM), a modern, fully interpretable machine learning model based on Generalized Additive Models (GAMs). This open-source package also provides visualization tools for EBMs, other glass-box models, and black-box explanations",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 184704903,
+                "language": "C++",
+                "last_commit": "2026-08-17T16:52:09Z",
+                "owner": "interpretml",
+                "repo": "interpret",
+                "stars": 6926
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "LIME",
+              "description": "Explaining the predictions of any machine learning classifier",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 53982546,
+                "language": "JavaScript",
+                "last_commit": "2024-07-25T20:32:21Z",
+                "owner": "marcotcr",
+                "repo": "lime",
+                "stars": 12166
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "flyte",
+              "description": "Workflow automation platform for machine learning",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 216628419,
+                "language": "Go",
+                "last_commit": "2026-08-24T10:18:40Z",
+                "owner": "flyteorg",
+                "repo": "flyte",
+                "stars": 7235
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "dbt",
+              "description": "Data build tool",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 53548867,
+                "language": "Rust",
+                "last_commit": "2026-08-24T11:44:24Z",
+                "owner": "dbt-labs",
+                "repo": "dbt-core",
+                "stars": 13684
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "zasper",
+              "description": "Supercharged IDE for Data Science",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 846263966,
+                "language": "TypeScript",
+                "last_commit": "2026-07-13T05:59:53Z",
+                "owner": "zasper-io",
+                "repo": "zasper",
+                "stars": 2321
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "skrub",
+              "description": "A Python library to ease preprocessing and feature engineering for tabular machine learning",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 124964482,
+                "language": "Python",
+                "last_commit": "2026-08-24T13:16:31Z",
+                "owner": "skrub-data",
+                "repo": "skrub",
+                "stars": 1649
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Chinese-Elite",
+              "description": "An open-source project that automatically maps relationship networks by parsing public data using LLMs and visualizes it as an interactive graph.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1063050638,
+                "language": "Python",
+                "last_commit": "2026-06-10T11:42:58Z",
+                "owner": "anonym-g",
+                "repo": "Chinese-Elite",
+                "stars": 72
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Desbordante",
+              "description": "An open-source data profiler specifically focused on discovery and validation of complex patterns, such as numerical association rules, differential dependencies, denial constraints, and more.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 254398110,
+                "language": "C++",
+                "last_commit": "2026-08-24T10:51:37Z",
+                "owner": "Desbordante",
+                "repo": "desbordante-core",
+                "stars": 498
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "dna-claude-analysis",
+              "description": "Personal genome analysis toolkit with Python scripts analyzing raw DNA data across 17 categories (health risks, ancestry, pharmacogenomics, nutrition, psychology, and more) and generating a terminal-style single-page HTML visualization.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1129232830,
+                "language": "Python",
+                "last_commit": "2026-03-04T23:57:04Z",
+                "owner": "shmlkv",
+                "repo": "dna-claude-analysis",
+                "stars": 55
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "RunMat",
+              "description": "Fast MATLAB-syntax runtime with automatic CPU/GPU execution and fused array kernels.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1027423503,
+                "language": "Rust",
+                "last_commit": "2026-08-22T00:20:31Z",
+                "owner": "runmat-org",
+                "repo": "runmat",
+                "stars": 251
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Turbostream",
+              "description": "A terminal UI for experimenting with custom rule engines and selective LLM analysis on real-time data streams, without worrying about streaming infra or backpressure.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1099828533,
+                "language": "Go",
+                "last_commit": "2026-02-23T07:09:12Z",
+                "owner": "turboline-ai",
+                "repo": "turbostream",
+                "stars": 17
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "WFGY ProblemMap",
+              "description": "Open source “failure atlas” of 16 recurring issues in LLM and RAG pipelines, with observable symptoms and suggested fixes for data science teams.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 996124831,
+                "language": "Jupyter Notebook",
+                "last_commit": "2026-08-24T07:02:30Z",
+                "owner": "onestardao",
+                "repo": "WFGY",
+                "stars": 1781
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "DeepAnalyze",
+              "description": "An agentic LLM for autonomous data science, which can autonomously complete a wide range of data science tasks without human intervention.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1074218324,
+                "language": "Python",
+                "last_commit": "2026-07-01T03:12:26Z",
+                "owner": "ruc-datalab",
+                "repo": "DeepAnalyze",
+                "stars": 4558
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Disco",
+              "description": "Superhuman exploratory data analysis. Finds the feature interactions and subgroup effects in tabular data that LLMs and manual exploration miss — with p-values, effect sizes, and literature citations. Free for public data.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1166014153,
+                "language": "Python",
+                "last_commit": "2026-08-22T02:18:37Z",
+                "owner": "leap-laboratories",
+                "repo": "discovery-engine",
+                "stars": 7
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Crypto Pump Scanner",
+              "description": "AI-powered cryptocurrency trading bot with LSTM neural network (84.6% accuracy). Real-time pump detection, walk-forward validated models, multi-exchange support (Bybit, Binance, OKX, Gate.io). Open source.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1204619991,
+                "language": "Python",
+                "last_commit": "2026-05-12T16:21:49Z",
+                "owner": "stefanoviana",
+                "repo": "deepalpha",
+                "stars": 41
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Future AGI",
+              "description": "Open-source platform to simulate, evaluate, trace, guardrail, route, and optimize LLM and AI agent apps in one feedback loop, so agents don't just get monitored, they self-improve. Self-hostable. Apache-2.0.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1219087723,
+                "language": "Python",
+                "last_commit": "2026-08-24T13:45:27Z",
+                "owner": "future-agi",
+                "repo": "future-agi",
+                "stars": 1801
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Miscellaneous Tools"
         }
       ],
       "title": "The Data Science Toolbox"
@@ -1830,10 +3058,10 @@
             "archived": false,
             "id": 21289110,
             "language": "Python",
-            "last_commit": "2026-08-23T08:02:10Z",
+            "last_commit": "2026-08-24T06:42:58Z",
             "owner": "vinta",
             "repo": "awesome-python",
-            "stars": 315731
+            "stars": 315797
           }
         },
         {
@@ -1848,7 +3076,7 @@
             "last_commit": "2026-08-23T23:52:17Z",
             "owner": "awesomedata",
             "repo": "awesome-public-datasets",
-            "stars": 78563
+            "stars": 78582
           }
         },
         {
@@ -1863,7 +3091,7 @@
             "last_commit": "2026-08-21T10:11:51Z",
             "owner": "josephmisiti",
             "repo": "awesome-machine-learning",
-            "stars": 74133
+            "stars": 74141
           }
         },
         {
@@ -1908,7 +3136,7 @@
             "last_commit": "2024-06-11T04:49:29Z",
             "owner": "ZuzooVn",
             "repo": "machine-learning-for-software-engineers",
-            "stars": 28869
+            "stars": 28866
           }
         },
         {
@@ -1938,7 +3166,7 @@
             "last_commit": "2026-03-23T20:19:22Z",
             "owner": "jnv",
             "repo": "lists",
-            "stars": 11435
+            "stars": 11436
           }
         },
         {
@@ -1968,7 +3196,7 @@
             "last_commit": "2020-12-03T17:58:42Z",
             "owner": "src-d",
             "repo": "awesome-machine-learning-on-source-code",
-            "stars": 6633
+            "stars": 6634
           }
         },
         {
@@ -1983,7 +3211,7 @@
             "last_commit": "2025-09-18T16:46:19Z",
             "owner": "qinwf",
             "repo": "awesome-R",
-            "stars": 6506
+            "stars": 6507
           }
         },
         {
@@ -2013,7 +3241,7 @@
             "last_commit": "2024-01-26T12:36:48Z",
             "owner": "hal9ai",
             "repo": "awesome-dataviz",
-            "stars": 4386
+            "stars": 4387
           }
         },
         {
@@ -2028,7 +3256,7 @@
             "last_commit": "2021-07-09T15:21:35Z",
             "owner": "mhagiwara",
             "repo": "100-nlp-papers",
-            "stars": 3845
+            "stars": 3846
           }
         },
         {
@@ -2240,13 +3468,35 @@
             "repo": "ml-interview-prep",
             "stars": 2
           }
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Awesome Music Production",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 53864797,
+                "language": null,
+                "last_commit": "2026-07-19T18:38:38Z",
+                "owner": "ad-si",
+                "repo": "awesome-music-production",
+                "stars": 1479
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Hobby"
         }
       ],
       "title": "Other Awesome Lists"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T05:57:43.071Z",
+    "last_updated": "2026-08-24T13:50:34.673Z",
     "original_repository": "academic/awesome-datascience",
     "original_repository_id": 21515044,
     "original_repository_sha": "111b740d498c36a47fe327f5e6a85b72fe07674c",
