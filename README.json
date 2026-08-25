@@ -194,7 +194,7 @@
                 "last_commit": "2026-08-17T05:07:26Z",
                 "owner": "FareedKhan-dev",
                 "repo": "train-llm-from-scratch",
-                "stars": 9398
+                "stars": 9399
               }
             },
             {
@@ -490,7 +490,7 @@
                 "last_commit": "2026-08-24T22:02:44Z",
                 "owner": "catboost",
                 "repo": "catboost",
-                "stars": 9074
+                "stars": 9075
               }
             },
             {
@@ -931,10 +931,10 @@
                     "archived": false,
                     "id": 65600975,
                     "language": "Python",
-                    "last_commit": "2026-08-25T05:43:49Z",
+                    "last_commit": "2026-08-25T06:04:00Z",
                     "owner": "pytorch",
                     "repo": "pytorch",
-                    "stars": 102580
+                    "stars": 102581
                   }
                 },
                 {
@@ -946,10 +946,10 @@
                     "archived": false,
                     "id": 535360445,
                     "language": "Python",
-                    "last_commit": "2026-08-25T05:35:32Z",
+                    "last_commit": "2026-08-25T06:08:43Z",
                     "owner": "ultralytics",
                     "repo": "ultralytics",
-                    "stars": 60940
+                    "stars": 60939
                   }
                 },
                 {
@@ -1193,10 +1193,10 @@
                     "archived": false,
                     "id": 45717250,
                     "language": "C++",
-                    "last_commit": "2026-08-25T05:43:54Z",
+                    "last_commit": "2026-08-25T06:06:12Z",
                     "owner": "tensorflow",
                     "repo": "tensorflow",
-                    "stars": 197612
+                    "stars": 197613
                   }
                 },
                 {
@@ -1897,7 +1897,7 @@
                 "last_commit": "2026-08-24T19:37:44Z",
                 "owner": "pola-rs",
                 "repo": "polars",
-                "stars": 39478
+                "stars": 39479
               }
             },
             {
@@ -2209,10 +2209,10 @@
                 "archived": false,
                 "id": 138754790,
                 "language": "C++",
-                "last_commit": "2026-08-24T16:59:32Z",
+                "last_commit": "2026-08-25T06:09:22Z",
                 "owner": "duckdb",
                 "repo": "duckdb",
-                "stars": 40590
+                "stars": 40591
               }
             },
             {
@@ -2434,7 +2434,7 @@
                 "archived": false,
                 "id": 162405963,
                 "language": "Python",
-                "last_commit": "2026-08-25T03:32:45Z",
+                "last_commit": "2026-08-25T06:07:25Z",
                 "owner": "gradio-app",
                 "repo": "gradio",
                 "stars": 43414
@@ -2809,7 +2809,7 @@
                 "archived": false,
                 "id": 1219087723,
                 "language": "Python",
-                "last_commit": "2026-08-25T05:00:44Z",
+                "last_commit": "2026-08-25T05:59:26Z",
                 "owner": "future-agi",
                 "repo": "future-agi",
                 "stars": 1807
@@ -3061,7 +3061,7 @@
             "last_commit": "2026-08-25T04:08:40Z",
             "owner": "vinta",
             "repo": "awesome-python",
-            "stars": 315914
+            "stars": 315919
           }
         },
         {
@@ -3076,7 +3076,7 @@
             "last_commit": "2026-08-24T19:56:43Z",
             "owner": "awesomedata",
             "repo": "awesome-public-datasets",
-            "stars": 78604
+            "stars": 78603
           }
         },
         {
@@ -3496,7 +3496,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T05:44:50.648Z",
+    "last_updated": "2026-08-25T06:10:02.641Z",
     "original_repository": "academic/awesome-datascience",
     "original_repository_id": 21515044,
     "original_repository_sha": "111b740d498c36a47fe327f5e6a85b72fe07674c",
